@@ -1,0 +1,12 @@
+package modelos;
+
+import Vista.VentanaUsuario;
+
+public class LabyApp {
+
+	public static void main(String[] args) {
+		VentanaPrincipal VentanaPrincipal = new VentanaPrincipal();
+		VentanaPrincipal.setVisible(true);
+	}
+
+}

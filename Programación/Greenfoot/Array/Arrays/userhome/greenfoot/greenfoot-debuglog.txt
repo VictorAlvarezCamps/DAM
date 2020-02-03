@@ -1,0 +1,11 @@
+Greenfoot run started: Thu Dec 11 16:59:39 CET 2014
+Greenfoot version: 2.3.0
+Java version 1.8.0_05
+Virtual machine: Java HotSpot(TM) 64-Bit Server VM 25.5-b02 (Oracle Corporation)
+Running on: Windows 7 6.1 (amd64)
+Java Home: C:\Program Files\Java\jdk1.8.0_05\jre
+----
+Opening project: E:\Florida\Programación\Greenfoot\Array\Arrays
+1418313582542: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.

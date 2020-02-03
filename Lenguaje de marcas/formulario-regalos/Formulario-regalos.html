@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Regalos página web</title>
+<style>
+legend {
+  color: #000000;
+  background: #A4A4A4;
+  text-align: left;
+  border: 2px solid #ffffff; 
+  border-radius: 5px;
+  font-size: 0.9em;
+ }
+ fieldset {
+  border: 2px solid #ffffff;
+  background: #B8B8B8 ;
+  border-radius: 10px;
+}
+</style>
+</head>
+
+<body bgcolor="#2E2E2E">
+<center><h1><b><u>Sección de regalos</u></b></h1></center>
+<form action=mailto:victor.alvarez.camps@gmail.com method=“post” enctype=“text/plain” enctype="multipart/form-data">
+	<fieldset>
+		<legend><h1><b><div id="legend">1.Datos del comprador</div></b></h1></legend>
+			<b>
+			   <p>Nombre:&nbsp;<input type=“text” name=“name” size=“30”>
+			   <br>
+			   Apellidos:&nbsp;<input type=“text” name=“apll” size=“30”>
+			   <br>
+			   Fecha de nacimiento:&nbsp;<input type=“date” name=“fecha” onkeyup="mascara(this,'/',patron,true)">
+			   <br>
+			   Sexo:&nbsp;<input type=“text” name=“sexo” size=“30”>
+			   <br>
+			   Dirección:&nbsp;<input type=“text” name=“dir” size=“50” >
+			   <br>
+			   Teléfono de contacto:&nbsp;<input type=“tel” name=“tel” size=“10” maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
+			   <br>
+			   Correo electrónico:&nbsp;<input type=“text” name=“correo” size=“50”>
+			</b>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend><h1><b><div id="legend">2.Regalos para niños</div></b></h1></legend>
+		<b>Seleccione el regalo que vaya a comprar:</b>
+		<br>
+		<br>
+		<SELECT NAME="niños" SIZE=5>
+		  <OPTION>Peluches
+		  <OPTION>Cuentos
+		  <OPTION>Colores
+		  <OPTION>Juguetes
+		  <OPTION>Coche teledirigido
+		  <OPTION>Casa de juguete
+		  <OPTION>Canicas
+		  <OPTION>Chapas
+		  <OPTION>Peonzas
+		  <OPTION>Puzzles
+		</SELECT>
+		<br>
+		<br>
+		<b>Rango de edad de quien va a recibir el regalo:</b>
+		<br>
+		<br>
+		<b>
+		<INPUT TYPE="RADIO" NAME="años" VALUE="A">Menor de 3 años
+		<INPUT TYPE="RADIO" NAME="años" VALUE="B">Entre 3 y 6 años
+		<INPUT TYPE="RADIO" NAME="años" VALUE="C">Entre 7 y 10 años
+		<INPUT TYPE="RADIO" NAME="años" VALUE="D">Entre 11 y 13 años
+		</b>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend><h1><b><div id="legend">3.Regalos para jovenes y adultos</div></b></h1></legend>
+		<b>Regalos para jóvenes (entre 14 y 18 años):</b>
+		<br>
+		<br>
+		<SELECT NAME="jóvenes" SIZE=5>
+			<OPTION>Juegos para cualquier consola
+			<OPTION>Pelotas
+			<OPTION>Play station
+			<OPTION>Play station 2
+			<OPTION>Play station 3
+			<OPTION>Play station 4
+			<OPTION>Guante y bate de béisbol
+			<OPTION>Nintendo ds3
+			<OPTION>XBOX 360
+			<OPTION>XBOX ONE
+		</SELECT>
+		<br>
+		<br>
+		<b>Regalos para adultos (Mayores de 18 años):</b>
+		<br>
+		<br>
+		<SELECT NAME="lista1" SIZE=5>
+			<OPTION>Pelota de fútbol
+			<OPTION>Juegos para cualquier consola
+			<OPTION>Play station
+			<OPTION>Play station 2
+			<OPTION>Play station 3
+			<OPTION>Play station 4
+			<OPTION>Torre PC
+			<OPTION>Nintendo ds3
+			<OPTION>XBOX 360
+			<OPTION>XBOX ONE
+		</SELECT>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend><h1><b><div id="legend">4.Notas grupo de alumnos</div></b></h1></legend>
+		<center>
+		<b>
+		<table border="5" colspan="6" rowspan="8" bordercolor="#FFFFFF">
+			<tr>
+				<td>
+				<td>Castellano
+				<td>Valenciano
+				<td>Inglés
+				<td>Latín
+				<td>Francés
+			<tr>
+				<td>Agustín Saez López 
+				<td style="text-align:center;">7
+				<td style="text-align:center;">8
+				<td style="text-align:center;">7
+				<td style="text-align:center;">9
+				<td style="text-align:center;">7
+			<tr>
+				<td>Ana Mª Pérez Pico
+				<td style="text-align:center;">9
+				<td style="text-align:center;">8
+				<td style="text-align:center;">7
+				<td style="text-align:center;">5
+				<td style="text-align:center;">7
+			<tr>
+				<td>Daniel López López
+				<td style="text-align:center;">7
+				<td style="text-align:center;">5
+				<td style="text-align:center;">8
+				<td style="text-align:center;">6
+				<td style="text-align:center;">9
+			<tr>
+				<td> Gonzálo Barros García
+				<td style="text-align:center;">5
+				<td style="text-align:center;">6
+				<td style="text-align:center;">7
+				<td style="text-align:center;">8
+				<td style="text-align:center;">9
+			<tr>
+				<td>Laura Cardenas Lozano
+				<td style="text-align:center;">8
+				<td style="text-align:center;">9
+				<td style="text-align:center;">7
+				<td style="text-align:center;">9
+				<td style="text-align:center;">8
+			<tr>
+				<td> Lidia Valero Santiago
+				<td style="text-align:center;">8
+				<td style="text-align:center;">9
+				<td style="text-align:center;">6
+				<td style="text-align:center;">8
+				<td style="text-align:center;">9
+			<tr>
+				<td>Miguel Moreno Briones 
+				<td style="text-align:center;">9
+				<td style="text-align:center;">8
+				<td style="text-align:center;">9
+				<td style="text-align:center;">9
+				<td style="text-align:center;">9
+		</table>
+		</b>
+		</center>
+	</fieldset>
+</form>
+</body>
+</html>

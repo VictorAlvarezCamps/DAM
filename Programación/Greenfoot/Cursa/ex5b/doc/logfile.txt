@@ -1,0 +1,43 @@
+Class documentation
+<---- javadoc command: ---->
+D:\SUN\JDK\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-protected
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.6
+-classpath
+D:\Greenfoot\lib\extensions\greenfoot.jar;D:\Greenfoot\lib\bluejcore.jar;D:\Greenfoot\lib\bluejeditor.jar;D:\Greenfoot\lib\bluejext.jar;D:\Greenfoot\lib\AppleJavaExtensions.jar;D:\Greenfoot\lib\junit-4.8.2.jar;D:\Greenfoot\lib\bluej.jar;D:\Greenfoot\lib\commons-httpclient-3.1.jar;D:\Greenfoot\lib\commons-logging-api-1.1.1.jar;D:\Greenfoot\lib\commons-codec-1.3.jar;D:\Greenfoot\lib\jl1.0.1.jar;D:\Greenfoot\scenarios\Inventats\ex5b
+-d
+D:\Greenfoot\scenarios\Inventats\ex5b\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+D:\Greenfoot\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+D:\Greenfoot\scenarios\Inventats\ex5b\Obstacle.java
+<---- end of javadoc command ---->
+Loading source file D:\Greenfoot\scenarios\Inventats\ex5b\Obstacle.java...
+Constructing Javadoc information...
+Standard Doclet version 1.6.0_17
+Building tree for all the packages and classes...
+Generating D:\Greenfoot\scenarios\Inventats\ex5b\doc\Obstacle.html...
+D:\Greenfoot\scenarios\Inventats\ex5b\Obstacle.java:10: warning - @autor is an unknown tag.
+Generating D:\Greenfoot\scenarios\Inventats\ex5b\doc\package-frame.html...
+Generating D:\Greenfoot\scenarios\Inventats\ex5b\doc\package-summary.html...
+Generating D:\Greenfoot\scenarios\Inventats\ex5b\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating D:\Greenfoot\scenarios\Inventats\ex5b\doc\allclasses-frame.html...
+Generating D:\Greenfoot\scenarios\Inventats\ex5b\doc\allclasses-noframe.html...
+Generating D:\Greenfoot\scenarios\Inventats\ex5b\doc\index.html...
+Generating D:\Greenfoot\scenarios\Inventats\ex5b\doc\stylesheet.css...
+1 warning

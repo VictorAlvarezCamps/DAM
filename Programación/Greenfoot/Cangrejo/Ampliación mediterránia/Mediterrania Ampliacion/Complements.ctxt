@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ eliminaComplementDelMon()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ agafaCrancSalut()
+comment3.params=
+comment3.target=void\ agafaCrancMunicio()
+comment4.params=
+comment4.target=int\ getcomMunicio()
+comment5.params=CM
+comment5.target=void\ setcomMunicio(int)
+comment6.params=
+comment6.target=int\ getSalut()
+comment7.params=S
+comment7.target=void\ setSalut(int)
+comment8.params=
+comment8.target=int\ getVelocitatComplement()
+comment9.params=vc
+comment9.target=void\ setVelocitatComplement(int)
+numComments=10

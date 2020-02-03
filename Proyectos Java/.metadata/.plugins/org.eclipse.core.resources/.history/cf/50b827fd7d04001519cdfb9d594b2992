@@ -1,0 +1,76 @@
+package Vista;
+
+import javax.swing.JPanel;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
+import java.awt.CardLayout;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class VentanaUsuario extends JPanel {
+	private JPanel VentanaEquipo;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	private JTextField textField_4;
+
+	/**
+	 * Create the panel.
+	 */
+	public VentanaUsuario() {
+		setLayout(new CardLayout(0, 0));
+		
+		JLabel lblNombre = new JLabel("Nombre");
+		add(lblNombre, "name_4617287701154");
+		
+		textField = new JTextField();
+		add(textField, "name_4617306257526");
+		textField.setColumns(10);
+		
+		JLabel lblApellidos = new JLabel("Apellidos");
+		add(lblApellidos, "name_4617328373450");
+		
+		textField_1 = new JTextField();
+		add(textField_1, "name_4617343630692");
+		textField_1.setColumns(10);
+		
+		JLabel lblEdad = new JLabel("Edad");
+		add(lblEdad, "name_4617359809467");
+		
+		textField_2 = new JTextField();
+		add(textField_2, "name_4617371785968");
+		textField_2.setColumns(10);
+		
+		JLabel lblNacionalidad = new JLabel("Nacionalidad");
+		add(lblNacionalidad, "name_4617382894817");
+		
+		textField_3 = new JTextField();
+		add(textField_3, "name_4617396359454");
+		textField_3.setColumns(10);
+		
+		JLabel lblNewLabel = new JLabel("New label");
+		lblNewLabel.setIcon(new ImageIcon(VentanaUsuario.class.getResource("/img/victor.jpg")));
+		add(lblNewLabel, "name_4617406932489");
+		
+		JLabel lblId = new JLabel("Id");
+		add(lblId, "name_4617417804434");
+		
+		textField_4 = new JTextField();
+		add(textField_4, "name_4617432174782");
+		textField_4.setColumns(10);
+		
+		JButton btnSiguiente = new JButton("Siguiente>>");
+		btnSiguiente.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+			}
+		});
+		add(btnSiguiente, "name_4617444383056");
+
+	}
+}

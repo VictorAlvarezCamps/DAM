@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.W3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:element name="BDComunidad">
+ <xs:complexType>
+   <xs:sequence>
+     <xs:element name="Vecino" maxOccurs="unbounded">
+       <xs:complexType>
+         <xs:sequence>
+           <xs:element name="Cod_Vecino" type="xs:string"/>
+           <xs:element name="Nombre" type="xs:string"/>
+           <xs:element name="Apellidos" type="xs:string"/>
+           <xs:element name="Portal" type="xs:integer"/>
+	   	   <xs:element name="Piso_y_letra" type="xs:string"/>
+		   <xs:element name="CCC" type="xs:integer"/>
+		   <xs:element name="Cargo" type="xs:string"/>
+         </xs:sequence>
+	   </xs:complexType>
+     </xs:element>
+   </xs:sequence>
+ </xs:complexType>
+</xs:element>
+</xs:schema>

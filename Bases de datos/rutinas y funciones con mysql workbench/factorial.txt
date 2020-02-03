@@ -1,0 +1,15 @@
+CREATE FUNCTION 'factorial'(n int)
+
+BEGIN
+
+	declare cont integer;
+	declare i int default 1;	
+	set cont=0;
+
+	loop1: while i<=n do
+	i=i+cont;
+	cont=cont+1;
+	END WHILE loop1;
+	return i; 
+	
+END

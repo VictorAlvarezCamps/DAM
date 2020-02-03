@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<actosfesteros>
+ 	<acto>
+	   <nomacto>Mascletá</nomacto>
+	   <nomentidad>Falla La Plaza</nomentidad>
+	   <fecha>11/3/2012</fecha>
+ 	</acto>
+	<acto>
+	   <nomacto>castillo</nomacto>
+	   <nomentidad>Falla La Plaza</nomentidad>
+	   <fecha>14/3/2012</fecha>
+	 </acto>
+	 <acto>
+	   <nomacto>Desfile</nomacto>
+	   <nomentidad>Comparsa Alí Babá</nomentidad>
+	   <fecha>19/8/2012</fecha>
+	 </acto>
+	<acto>
+	   <nomacto>mascletá</nomacto>
+	   <nomentidad>Comparsa Alí Babá</nomentidad>
+	   <fecha>23/8/2012</fecha>
+	 </acto>
+	<acto>
+	   <nomacto>Procesión</nomacto>
+	   <nomentidad>Cofradía San Pedro</nomentidad>
+	   <fecha>19/8/2012</fecha>
+	 </acto>
+	<acto>
+	   <nomacto>mercadillo</nomacto>
+	   <nomentidad>Cofradía San Pedro</nomentidad>
+	   <fecha>29/8/2012</fecha>
+ 	</acto>
+	<entidades>
+ 		<entidad>
+		   <nomentidad>Falla La Plaza</nomentidad>
+		   <ciudad>Catarroja</ciudad>
+				<festero>
+					<nomfestero>Pepe</nomfestero>
+					<edad>24</edad>
+				</festero>
+				<festero>
+					<nomfestero>Ana</nomfestero>
+					<edad>22</edad>
+				</festero>
+				<festero>
+					<nomfestero>Juan</nomfestero>
+					<edad>28</edad>
+				</festero>
+				<festero>
+					<nomfestero>Eva</nomfestero>
+					<edad>24</edad>
+				</festero>
+ 		</entidad>
+		<entidad>
+   			<nomentidad>Comparsa Alí Babá</nomentidad>
+   			<ciudad>Catarroja</ciudad>
+			   <festero>
+					<nomfestero>Pepe</nomfestero>
+					<edad>24</edad>
+			   </festero>
+  			   <festero>
+					<nomfestero>Laura</nomfestero>
+					<edad>29</edad>
+			   </festero>
+			   <festero>
+					<nomfestero>Ximo</nomfestero>
+					<edad>21</edad>
+			   </festero>
+			   <festero>
+					<nomfestero>Eva</nomfestero>
+					<edad>24</edad>
+   			   </festero>
+ 		</entidad>
+		<entidad>
+   			<nomentidad>Cofradía San Pedro</nomentidad>
+   			<ciudad>Albal</ciudad>
+   				<festero>
+					<nomfestero>Jorge</nomfestero>
+					<edad>28</edad>
+   				</festero>
+   				<festero>
+    				<nomfestero>Laura</nomfestero>
+    				<edad>29</edad>
+   				</festero>
+		</entidad>
+	</entidades>
+</actosfesteros>

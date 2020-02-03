@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<equipo>
+	<jugador>
+		<nombre>Pepe</nombre>
+		<apellidos>pepin</apellidos>
+		<fechanacimiento>18-6-1993</fechanacimiento>
+		<edad>12</edad>
+		<telefono1>961241547</telefono1>
+		<nombreequipo>Valencia</nombreequipo>
+		<Nombreapellidospadres>Manolo y Juana</Nombreapellidospadres>
+		<categoria>Infantil</categoria>
+		<dem>Portero</dem>
+		<dorsal>1</dorsal>
+	</jugador>
+	<jugador>
+		<nombre>Pepe</nombre>
+		<apellidos>pepin</apellidos>
+		<fechanacimiento>18-6-1993</fechanacimiento>
+		<edad>12</edad>
+		<telefono1>961241547</telefono1>
+		<nombreequipo>Valencia</nombreequipo>
+		<Nombreapellidospadres>Manolo y Juana</Nombreapellidospadres>
+		<categoria>Infantil</categoria>
+		<dem>Portero</dem>
+		<dorsal>1</dorsal>
+	</jugador>
+	<jugador>
+		<nombre>Pepe</nombre>
+		<apellidos>pepin</apellidos>
+		<fechanacimiento>18-6-1993</fechanacimiento>
+		<edad>12</edad>
+		<telefono1>961241547</telefono1>
+		<nombreequipo></nombreequipo>
+		<Nombreapellidospadres>Manolo y Juana</Nombreapellidospadres>
+		<categoria>Infantil</categoria>
+		<dem>Portero</dem>
+		<dorsal>1</dorsal>
+	</jugador>
+</equipo>

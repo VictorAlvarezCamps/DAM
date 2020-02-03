@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=angle\ forsa
+comment0.target=Bala(double,\ double)
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Projectile\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ fly()
+comment3.params=x\ y
+comment3.target=void\ moveTo(double,\ double)
+comment4.params=x\ y
+comment4.target=void\ setLocation(int,\ int)
+comment5.params=x\ y
+comment5.target=void\ setExactLocation(double,\ double)
+comment6.params=angleRadians\ forceFactor
+comment6.target=double\ getVelX(double,\ double)
+comment7.params=angleRadians\ forceFactor
+comment7.target=double\ getVelY(double,\ double)
+comment8.params=
+comment8.target=int\ posLletra()
+numComments=9

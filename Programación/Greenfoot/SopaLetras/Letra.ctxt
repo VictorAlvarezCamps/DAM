@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=
+comment1.target=Letra()
+comment2.params=
+comment2.target=void\ refrescaLetra()
+comment3.params=
+comment3.target=void\ refrescaLetraNoPintada()
+comment4.params=
+comment4.target=void\ refrescaLetraPintada()
+comment5.params=
+comment5.target=void\ letraMarcada()
+comment6.params=
+comment6.target=boolean\ getMarcada()
+comment7.params=mar
+comment7.target=void\ setMarcada(boolean)
+comment8.params=
+comment8.target=char\ getdevuelveLetra()
+comment9.params=mal
+comment9.target=void\ setdevuelveLetra(char)
+numComments=10

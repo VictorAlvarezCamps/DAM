@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=SopaLetras(java.lang.String[])
+comment1.params=
+comment1.target=void\ llenaAleatorio()
+comment2.params=
+comment2.target=void\ ponerPalabras()
+comment3.params=s
+comment3.target=void\ colocaVertical(java.lang.String)
+comment4.params=s
+comment4.target=void\ colocaHorizontal(java.lang.String)
+comment5.params=i\ j
+comment5.target=Letra\ getLetra(int,\ int)
+numComments=6

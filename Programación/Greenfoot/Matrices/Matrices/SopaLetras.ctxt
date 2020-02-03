@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SopaLetras()
+comment1.params=
+comment1.target=void\ inicializarMatriz()
+comment2.params=
+comment2.target=void\ ponerPalabrasEnMatriz()
+comment3.params=
+comment3.target=void\ rellenarMatrizCaracteresAleatorios()
+comment4.params=palabrita
+comment4.target=void\ ponerPalabraEnHorizontal(java.lang.String)
+comment5.params=palabrita
+comment5.target=void\ ponerPalabraEnVertical(java.lang.String)
+comment6.params=
+comment6.target=void\ mostrarMatriz()
+numComments=7

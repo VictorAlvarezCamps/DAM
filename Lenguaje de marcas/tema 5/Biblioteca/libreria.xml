@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tablaBiblioteca.xsl"?>
+<libreria>
+   <libro>
+      <titulo>El Quijote</titulo>
+      <autor>Miguel de Cervantes</autor> 
+      <genero>Novela</genero>
+      <precio>18</precio>
+   </libro>
+ <libro>
+      <titulo>La Colmena</titulo>
+      <autor>Camilo Jose Cerla</autor> 
+      <genero>Novela</genero>
+      <precio>24</precio>
+   </libro>
+ <libro>
+     <titulo>Una aventura de los cinco</titulo>
+     <autor>Enid Blyton</autor> 
+     <genero>Infantil</genero>
+     <precio>12</precio>
+ </libro>
+</libreria>

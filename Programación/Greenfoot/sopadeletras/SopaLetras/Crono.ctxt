@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=Crono(int)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ contaSegundo()
+comment3.params=
+comment3.target=void\ descomponerTiempo()
+comment4.params=r
+comment4.target=void\ restaTiempo(int)
+comment5.params=
+comment5.target=void\ dibujaCrono()
+comment6.params=
+comment6.target=void\ repintar()
+comment7.params=
+comment7.target=int\ getMin()
+comment8.params=
+comment8.target=int\ getSeg()
+numComments=9

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="informacionMundo.xsl"?>
+<Mundo>  
+   <Pais continente = "Europa">
+   		<Nombre>España</Nombre>
+		<Capital>Madrid</Capital>
+		<Idioma>Español</Idioma>
+		<Poblacion>47,27 millones</Poblacion>
+		<InformacionPais>España, también denominado Reino de España,nota 2 es un país soberano, miembro de la Unión Europea, constituido en Estado  social y democrático de derecho y cuya forma de gobierno es la monarquía parlamentaria. Su territorio está organizado en 17 comunidades autónomas y dos ciudades autónomas. Su capital es la villa de Madrid.</InformacionPais>
+   </Pais>
+   <Pais continente = "Europa">
+   		<Nombre>Francia</Nombre>
+		<Capital>París</Capital>
+		<Idioma>Francés</Idioma>
+		<Poblacion>66 millones</Poblacion>
+		<InformacionPais>Francia, oficialmente República Francesa (en francés: République française); es un país soberano, miembro de la Unión Europea y con capital en París, que se extiende sobre una superficie total de 675 417 km² y cuenta con una población de 66 millones de habitantes.</InformacionPais>
+   </Pais>
+   <Pais continente = "Europa">
+   		<Nombre>Italia</Nombre>
+		<Capital>Roma</Capital>
+		<Idioma>Italiano</Idioma>
+		<Poblacion>59,83 millones</Poblacion>
+		<InformacionPais>Italia, oficialmente la República Italiana (en italiano: Repubblica Italiana), es un país soberano miembro de la Unión Europea. Es un país bicontinental; su territorio está en Europa del Sur y en el norte de África; su territorio europeo lo conforma la península itálica, el valle del Po y dos grandes islas en el mar Mediterráneo: Sicilia y Cerdeña; en África se encuentran las islas Pelagias y la isla de Pantelaria. En el norte está bordeado por los Alpes, donde limita con Francia, Suiza, Austria y Eslovenia. Los estados independientes de San Marino y Ciudad del Vaticano son enclaves dentro del territorio italiano. A su vez Campione d'Italia es un municipio italiano que forma un pequeño enclave en territorio suizo.</InformacionPais>
+   </Pais>
+   <Pais continente = "Asia">
+   		<Nombre>Afganistán</Nombre>
+		<Capital>kabul</Capital>
+		<Idioma>Persa</Idioma>
+		<Poblacion>30,55 millones</Poblacion>
+		<InformacionPais>Afganistán —oficialmente República Islámica de Afganistán (dari: جمهوری اسلامی افغانستان, Jomhūrī-ye Eslā̄mī̄-ye Afghā̄nestā̄n; pashto: د افغانستان اسلامي جمهوریت, Dê Afghānistān Islāmī Jumhūrīyat)— es un país sin salida al mar ubicado en el corazón de Asia. Considerado generalmente como parte de Asia Central, está a veces agrupado dentro de un bloque regional entre el subcontinente indio y el Medio Oriente, como una entidad religiosa, etnolingüística y geográfica relacionado con la mayoría de sus vecinos. Limita con Pakistán al sur y al este, con Irán al oeste, con Turkmenistán, Uzbekistán, y Tayikistán al norte, y con la República Popular China al noreste a través del corredor de Wakhan.</InformacionPais>
+   </Pais>
+   <Pais  continente = "Asia">
+   		<Nombre>Vietnam</Nombre>
+		<Capital>Hanói</Capital>
+		<Idioma>vietnamita</Idioma>
+		<Poblacion>89,71 millones</Poblacion>
+		<InformacionPais>Vietnam —oficialmente República Socialista de Vietnam (en vietnamita: Cộng hòa Xã hội chủ nghĩa Việt Nam)— es un país soberano del Sudeste Asiático, el más oriental de la península Indochina. Con una población estimada de 90 millones, es el decimotercer país más poblado del mundo y el octavo de Asia. El nombre del país se traduce como «Viet del sur», un sinónimo del antiguo nombre del reino de Nanyue, y fue adoptado oficialmente por primera vez en 1802 por el emperador Gia Long. En 1945 volvió a fijarse de manera oficial el topónimo con la fundación de la República Democrática de Vietnam presidida por Hồ Chí Minh. El país tiene frontera por el norte con China, con Laos por el noroeste y con Camboya por el suroeste, mientras que hacia el este tiene una extensa costa bañada por el mar de la China Meridional. Su capital es Hanói desde la reunificación de Vietnam del Norte y Vietnam del Sur en 1976.</InformacionPais>
+   </Pais>
+   <Pais  continente = "Asia">
+   		<Nombre>Malasia</Nombre>
+		<Capital>Kuala Lumpur</Capital>
+		<Idioma>malayo</Idioma>
+		<Poblacion>29,72 millones</Poblacion>
+		<InformacionPais>Malasia1 (Jawi: مليسيا, en malayo e inglés, Malaysia) es un país ubicado en el sureste asiático que consta de trece estados y tres territorios federales, con un área de 329.847 km². Su capital es Kuala Lumpur pero Putrajaya es la sede de su gobierno. Tiene una población de veintisiete millones de habitantes, distribuida en un territorio dividido en dos regiones por el mar de la China Meridional. La de Malasia Peninsular se encuentra en la península malaya y limita al norte con Tailandia y al sur con Singapur. La de Malasia Oriental, por su parte, está situada en la zona septentrional de Borneo y limita al sur con Indonesia y al norte con Brunéi. Se encuentra cerca del ecuador y su clima es tropical.</InformacionPais>
+   </Pais>
+   <Pais  continente = "Africa">
+   		<Nombre>Angola</Nombre>
+		<Capital>Luanda</Capital>
+		<Idioma>Portugues</Idioma>
+		<Poblacion>16 millones</Poblacion>
+		<InformacionPais>Angola oficialmente la República de Angola, es un país ubicado al sur de África que tiene fronteras con Namibia por el sur, con la República Democrática del Congo por el norte y con Zambia por el este, mientras que hacia el oeste tiene costa bañada por el océano Atlántico. Su capital es Luanda y al norte del país se encuentra el exclave de Cabinda, que tiene fronteras con la República del Congo y con la República Democrática del Congo.</InformacionPais>
+   </Pais>
+   <Pais  continente = "Africa">
+   		<Nombre>Argelia</Nombre>
+		<Capital>Argel</Capital>
+		<Idioma>Arabe</Idioma>
+		<Poblacion>33 millones</Poblacion>
+		<InformacionPais>Argelia (en árabe: الجزائر, al-Yazā’ir) cuyo nombre oficial es República Argelina Democrática y Popular (en árabe: الجمهورية الجزائرية الديمقراطية الشعبية, al-Yumhuriyya al-Yazā'iriyya ad-Dīmuqrāţiyya ash-Shaʿbiyya) es un país del Magreb, el norte de África. Desde la división de Sudán, el 9 de julio de 2011, es el país de mayor superficie de África. Limita con el mar Mediterráneo al norte, Túnez al noreste, Libia al este, Níger al sureste, Malí y Mauritania al suroeste, y Marruecos y el Sáhara Occidental al oeste.</InformacionPais>
+   </Pais>
+   <Pais  continente = "Africa">
+   		<Nombre>Botsuana</Nombre>
+		<Capital>Gaborone</Capital>
+		<Idioma>ingles,setsuana</Idioma>
+		<Poblacion>1,6 millones</Poblacion>
+		<InformacionPais>Botsuana, cuyo nombre oficial es República de Botsuana (en inglés: Republic of Botswana; en setsuana: Lefatshe la Botswana), es un país soberano sin salida al mar del sur de África cuya forma de gobierno es la república parlamentaria. Su territorio está dividido en nueve distritos. La capital del país es la ciudad de Gaborone.</InformacionPais>
+   </Pais>
+   <Pais  continente = "America">
+   		<Nombre>Antigua y Barbuda</Nombre>
+		<Capital>Saint John</Capital>
+		<Idioma>ingles</Idioma>
+		<Poblacion>89.985 </Poblacion>
+		<InformacionPais>Antigua y Barbuda (en inglés: Antigua and Barbuda) es una nación formada por un conglomerado de islas situada al este del Mar Caribe. Forma parte de las pequeñas Antillas y limita con la isla de Guadalupe al sur, Montserrat al sudoeste, San Cristóbal y Nieves en el oeste y San Bartolomé al noroeste. Como una antigua colonia del Imperio británico, es miembro de la Mancomunidad de Naciones. La capital y la ciudad más poblada es Saint John's.</InformacionPais>
+   </Pais>
+   <Pais  continente = "America">
+   		<Nombre>Argentina</Nombre>
+		<Capital>Buenos Aires</Capital>
+		<Idioma>español</Idioma>
+		<Poblacion>41,45 millones </Poblacion>
+		<InformacionPais>La República Argentina, conocida simplemente como Argentina, es un país de Sudamérica, ubicado en el extremo sur y sudeste de dicho subcontinente. Organizado de modo republicano, representativo y federal, se constituye de 24 entidades, 23 provincias y una ciudad autónoma, Buenos Aires, capital y sede del gobierno federal</InformacionPais>
+   </Pais>
+   <Pais  continente = "America">
+   		<Nombre>Bahamas</Nombre>
+		<Capital>Nassau</Capital>
+		<Idioma>ingles</Idioma>
+		<Poblacion>377.374</Poblacion>
+		<InformacionPais>Las Bahamas, oficialmente la Mancomunidad de las Bahamas (en inglés: Commonwealth of the Bahamas), es un país constituido por más de 700 islas (de las cuales, 24 están habitadas y más de 600 deshabitadas), cayos e islotes en el Océano Atlántico; al norte de Cuba y República Dominicana, noroeste de Islas Turcas y Caicos, al sureste del estado estadounidense de Florida y al este de los Cayos de la Florida. Su capital es Nassau situada en la isla de New Providence. Geográficamente las Bahamas forman junto con las Islas Turcas y Caicos el Archipiélago de las Lucayas, también denominado por extensión Bahamas. Por manifiesto de la Real Fuerza de Defensa de las Bahamas, el territorio de las Bahamas ocupa 180.000 millas cuadradas de espacio oceánico, si bien las medidas oficiales les aportarían mucho más espacio económico.</InformacionPais>
+   </Pais>
+   <Pais  continente = "Oceania">
+   		<Nombre>Australia</Nombre>
+		<Capital>Canberra</Capital>
+		<Idioma>Ingles</Idioma>
+		<Poblacion>19 millones</Poblacion>
+		<InformacionPais>La Mancomunidad de Australia (oficialmente en inglés: Commonwealth of Australia; AFI: [ˈkɒmənwelθ ɒv ɒˈstreɪliə]), de manera abreviada Australia (en inglés: Australia; AFI: [ɒˈstreɪliə]) es un país soberano de Oceanía, cuya forma de gobierno es la monarquía constitucional federal parlamentaria.</InformacionPais>
+   </Pais>
+   <Pais  continente = "Oceania">
+   		<Nombre>Estados Federados de Micronesia</Nombre>
+		<Capital>Palikir</Capital>
+		<Idioma>Ingles</Idioma>
+		<Poblacion>122 000</Poblacion>
+		<InformacionPais>Los Estados Federados de Micronesia (en inglés: Federated States of Micronesia) son un Estado soberano insular en la región de Micronesia, cuya forma de gobierno es la república federal democrática. Administrativamente, está constituido por cuatro estados —de oeste a este: Yap, Chuuk, Pohnpei y Kosrae— esparcidos a lo largo del océano Pacífico, con capital en la ciudad de Palikir. Asimismo, los estados comprenden alrededor de 607 islas que cubren un distancia longitudinal de 2700 kilómetros, al norte del ecuador terrestre.</InformacionPais>
+   </Pais>
+   <Pais  continente = "Oceania">
+   		<Nombre>Fiyi</Nombre>
+		<Capital>Suva</Capital>
+		<Idioma>Ingles, Fiyiano</Idioma>
+		<Poblacion>823 000</Poblacion>
+		<InformacionPais>Fiyi,3 oficialmente la República de Fiyi (en inglés: Republic of Fiji, en fiyiano: Matanitu ko Viti, en indostánico: फ़िजी गणराज्य),9 es un país insular de Oceanía en el océano Pacífico y constituido en una República parlamentaria. No tiene fronteras terrestres. Se encuentra cerca de Australia, Nueva Zelanda, Papúa Nueva Guinea, Nueva Caledonia, Samoa, Tuvalu e Islas Salomón. Con una superficie de 18.274 kilómetros cuadrados es el 156º más grande del mundo, así como el 160º más poblado con una población en 2007 de 837.271 habitantes. Tiene su capital en Suva, pero su ciudad más poblada es Nasinu.</InformacionPais>
+   </Pais>
+</Mundo>

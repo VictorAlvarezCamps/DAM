@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Carrera()
+comment0.text=\r\n\ Carrera\ Constructor.\ Constructor\ que\ genera\ l'escenari\ de\ la\ cursa,\ i\ situa\ els\ corredors\ en\ el\ punt\ de\ partida.\r\n\r\n
+comment1.params=
+comment1.target=void\ avancarCorredors()
+comment1.text=\r\n\ M\u00E8tode\ avancarCorredors.\r\n\ Fa\ que\ tots\ els\ corredors\ de\ la\ cursa\ avancen\ una\ quantitat\ de\ metres\ aleat\u00F2ria.\ Els\ metres\ que\ poden\ avan\u00E7ar\ els\ corredors,\r\n\ cada\ vegada\ que\ es\ crida\ a\ aquest\ m\u00E8tode\ varia\ aleat\u00F2riament\ entre\ [0-9]\ metres.\r\n\ Si\ un\ corredor\ arriba\ a\ la\ meta\ (o\ ha\ recorregut\ m\u00E9s\ de\ 550\ pixels)\ resulta\ guanyador\ de\ la\ mateixa\r\n\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E8tode\ act.\r\n\ Controla\ el\ desenvolupament\ de\ la\ cursa.\ En\ cada\ iteraci\u00F3\ del\ m\u00E8tode\ act,\ afegeix\ un\ retard\ de\ 10,\ per\ a\ que\ l'animaci\u00F3\ es\ puga\ apreciar\ b\u00E9.\r\n\r\n
+comment3.params=
+comment3.target=void\ llegaMeta()
+numComments=4

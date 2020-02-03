@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ eliminaEnemicDelMon()
+comment1.params=
+comment1.target=void\ atacaCranc()
+comment2.params=
+comment2.target=int\ getTipusEnemic()
+comment3.params=t
+comment3.target=void\ setTipusEnemic(int)
+comment4.params=
+comment4.target=int\ getPuntsEnemic()
+comment5.params=p
+comment5.target=void\ setPuntsEnemic(int)
+comment6.params=
+comment6.target=int\ getFerocitat()
+comment7.params=f
+comment7.target=void\ setFerocitat(int)
+comment8.params=
+comment8.target=int\ getVelocitatEnemic()
+comment9.params=v
+comment9.target=void\ setVelocitatEnemic(int)
+numComments=10

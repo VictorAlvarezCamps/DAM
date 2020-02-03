@@ -1,0 +1,400 @@
+header{
+	height: 100px;
+	background: #B40404;
+	width: 100%;
+	z-index: 100;
+	position: fixed;
+	box-shadow: 0 84px 0 #FFFFFF inset;
+}
+
+body h1{
+	margin-left: 45px;
+}
+
+.disenyoDiv{
+	border: 1px solid red;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 99%;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	-webkit-border-radius: 5px 10px;
+    -moz-border-radius: 5px 10px;
+    padding: 10px;
+}
+#banner {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background: #000000;
+}
+
+#content{
+	width: 100%;
+	position: relative;
+	top:400px;
+	background: #FFFFFF;
+	height: 1500px;
+}
+
+.clearfix:before,.clearfix:after,.container:before,.container:after{
+	display:table;
+	content: "";
+}
+.clearfix:after,.container:after{
+	clear: both;
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+	padding: 0 40px;
+}
+
+.cabecera .registro {
+	position: relative;
+	top: 30px;
+}
+
+.cabecera .registro a{
+	color : black;
+	text-align: left;
+	height: 10px;
+	width: 10px;
+}
+
+.cabecera .logo{
+	float:left;
+	width:230px;
+	padding:10px 0;
+}
+a{
+	color: #FFFFFF;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+a:hover{
+	color: #000000;
+}
+.cabecera .menu{
+	float: right;
+}
+.cabecera .menu ul{
+	list-style:none;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+.cabecera .menu ul li{
+	float: right;
+}
+.cabecera .menu ul li a{
+	padding:0 15px;
+	display:block;
+	line-height:84px;
+	color: #000000;
+}
+.cabecera .menu ul li a:hover,.cabecera .menu ul li.active a{
+	color: #FFFFFF;
+	box-shadow: 0 84px 0 #B40404 inset;
+}
+
+.buttons {
+	color: rgba(254, 000, 000, 0.6);
+	box-shadow: rgba(255, 255, 255, 0.4) 0 0px 0px 2px inset;
+}
+
+.buttons:hover {
+	color: rgba(254, 255, 255, 0.85);
+	box-shadow: rgba(254, 000, 000, 0.7) 0 0px 0px 40px inset;
+}
+
+body{
+ 
+	font-family: arial;
+ 
+	font-size: 12px;
+ 
+}
+ 
+.tabla {
+ 
+border: solid #000 1px;
+ 
+-moz-border-radius: 6px;
+ 
+-webkit-border-radius: 6px;
+ 
+border-radius: 6px;
+ 
+-webkit-box-shadow: 0 1px 1px #000;
+ 
+-moz-box-shadow: 0 1px 1px #000;
+ 
+box-shadow: 0 1px 1px #000;		
+ 
+}
+ 
+ 
+ 
+.table tr:hover {
+ 
+/*background: #fbf8e9;*/
+ 
+/*background: #FF0000;*/
+ 
+-o-transition: all 0.1s ease-in-out;
+ 
+-webkit-transition: all 0.1s ease-in-out;
+ 
+-moz-transition: all 0.1s ease-in-out;
+ 
+-ms-transition: all 0.1s ease-in-out;
+ 
+transition: all 0.1s ease-in-out;	
+ 
+}
+ 
+ 
+ 
+.table th {
+ 
+background-color: #ffffff;
+ 
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dce9f9));
+ 
+background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+ 
+background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+ 
+background-image:	 -ms-linear-gradient(top, #ffffff, #ffffff);
+ 
+background-image:	 -o-linear-gradient(top, #ffffff, #ffffff);
+ 
+background-image:		 linear-gradient(top, #ffffff, #ffffff);
+ 
+-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.<img src='http://www.solvetic.com/public/style_emoticons/default/smile.png' class='bbc_emoticon' alt='8' />) inset;
+ 
+-moz-box-shadow:0 1px 0 rgba(255,255,255,.<img src='http://www.solvetic.com/public/style_emoticons/default/smile.png' class='bbc_emoticon' alt='8' />) inset;
+ 
+box-shadow: 0 1px 0 rgba(255,255,255,.<img src='http://www.solvetic.com/public/style_emoticons/default/smile.png' class='bbc_emoticon' alt='8' />) inset;	
+ 
+border-top: none;
+ 
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+
+font-weight: bold;
+
+ 
+}
+
+
+.table-editable {
+  position: relative;
+}
+.table-editable .glyphicon {
+  font-size: 20px;
+}
+.table-up:hover, .table-down:hover {
+  color: #00f;
+}
+
+.table-add {
+  color: #070;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+.table-add:hover {
+  color: #0b0;
+}
+
+/*-------LOGIN STARTS HERE -------*/
+
+.registro{
+    float: right;
+}
+
+.register{
+    float:left;
+}
+
+/* Login Container (default to float:right) */
+#loginContainer {
+    position:relative;
+    float:left;
+    font-size:12px;
+}
+
+#loginButton { 
+    display:inline;
+    float:left;
+    margin-left: 80px;
+    background:#d2e0ea url(../img/buttonbg.png) repeat-x; 
+    border:1px solid #899caa; 
+    border-radius:3px;
+    -moz-border-radius:3px;
+    position:relative;
+    cursor:pointer;
+}
+
+/* Login Button Text */
+#loginButton span {
+    color:#445058; 
+    font-size:14px; 
+    font-weight:bold; 
+    text-shadow:1px 1px #fff;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background:url(../img/loginArrow.png) no-repeat 53px 7px;
+    display:block
+}
+
+#loginButton:hover {
+    background:url(../img/buttonbgHover.png) repeat-x;
+}
+
+/* Login Box */
+#loginBox {
+    position:relative;
+    top: 20px;
+    display:none;
+    float: right;
+}
+
+#loginForm {
+    width:260px;
+    border:2px solid #000000;
+    border-radius:3px 0 3px 3px;
+    -moz-border-radius:3px 0 3px 3px;
+    background:#ffffff;
+    padding:6px;
+}
+
+#loginForm #body tr{
+    margin:0 0 12px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+
+#loginForm #checkbox {
+    width:auto;
+    margin:1px 9px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:10px 9px 0 0; /* IE7 Fix */
+}
+
+#body td label {
+    color:#3a454d;
+    margin:9px 0 0 0;
+    display:block;
+    float:left;
+}
+
+#loginForm #body tr td label {
+    display:block;
+    float:none;
+    margin:0 0 6px 0;
+}
+
+#loginForm #body tr td #usuario {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+/* Default Input */
+#loginForm td input {
+    width:92%;
+    border:1px solid #899caa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    color:#3a454d;
+    font-weight:bold;
+    padding:8px 8px;
+    box-shadow:inset 0px 1px 3px #bbb;
+    -webkit-box-shadow:inset 0px 1px 3px #bbb;
+    -moz-box-shadow:inset 0px 1px 3px #bbb;
+    font-size:12px;
+}
+
+/* Sign In Button */
+#loginForm #login {
+    width:auto;
+    float:left;
+    background:#339cdf url(../img/loginbuttonbg.png) repeat-x;
+    color:#fff;
+    text-shadow:0px -1px #278db8;
+    border:1px solid #339cdf;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    margin:0 12px 0 0;
+    cursor:pointer;
+    *padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+/* Forgot your password */
+#loginForm span {
+    text-align:center;
+    display:block;
+    padding:7px 0 4px 0;
+    margin: ;
+}
+
+#loginForm span a {
+    color:#3a454d;
+    text-shadow:1px 1px #fff;
+    font-size:12px;
+}
+
+input:focus {
+    outline:none;
+}
+
+
+.Bienvenida{
+    width: 600px;
+    float: right;
+    margin-right: 5px;
+    text-align:right;
+}
+
+.imgUser{
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-top: 0px;
+}
+
+.txtBienvenido{
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.txtDesc{
+    float: right;
+    margin-top: 20px;
+}
+
+#OpcionesTiempo{
+    background-color: transparent;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.tdTiempo_hover {
+    background-color: #FACC2E
+}
+
+#table .filasABuscar td{
+    color: white;
+}

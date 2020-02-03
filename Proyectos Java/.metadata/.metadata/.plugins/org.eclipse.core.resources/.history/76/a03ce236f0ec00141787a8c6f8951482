@@ -1,0 +1,48 @@
+package Vista;
+
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.ImageIcon;
+import javax.swing.JComboBox;
+import javax.swing.JTextField;
+import javax.swing.JPasswordField;
+import javax.swing.JButton;
+
+public class VistaPrincipal extends JPanel {
+	public void VistaPrincipal() {
+		setLayout(null);
+		
+		JLabel lblNewLabel_1 = new JLabel("New label");
+		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\dai\\Desktop\\usuario.png"));
+		lblNewLabel_1.setBounds(10, 11, 145, 150);
+		add(lblNewLabel_1);
+		
+		JButton btnJuegos_1 = new JButton("Juegos");
+		btnJuegos_1.setBounds(182, 11, 89, 23);
+		add(btnJuegos_1);
+		
+		JButton btnPerfil_1 = new JButton("Perfil");
+		btnPerfil_1.setBounds(182, 52, 89, 23);
+		add(btnPerfil_1);
+		
+		JLabel lblUsuario_1 = new JLabel("Usuario:");
+		lblUsuario_1.setBounds(109, 172, 46, 14);
+		add(lblUsuario_1);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(80, 197, 98, 20);
+		add(comboBox);
+		
+		JLabel lblContrasea_1 = new JLabel("Contrase\u00F1a:");
+		lblContrasea_1.setBounds(90, 226, 82, 14);
+		add(lblContrasea_1);
+		
+		passwordField_1 = new JPasswordField();
+		passwordField_1.setBounds(80, 251, 98, 20);
+		add(passwordField_1);
+	}
+	private JPasswordField passwordField;
+	private JPasswordField passwordField_1;
+
+	
+}

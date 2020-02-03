@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cranc()
+comment0.text=\r\n\ Constructor\ Cranc.\ Ens\ permet\ inicialitzar\ els\ principals\ atributs\ del\ cranc\r\n\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ moviment()
+comment2.text=\r\n\ M\u00E8tode\ moviment.\ Gestiona\ la\ manera\ en\ que\ es\ mou\ el\ cranc\ al\ polsar\ les\ tecles.\r\n\ amb\ el\ cursor\ de\ la\ dreta\ es\ de`pla\u00E7a\ 5\ p\u00EDxels\ cap\ a\ la\ dreta.\ Amb\ el\ cursor\ de\ l'esquerra\r\n\ es\ despla\u00E7a\ 5\ p\u00EDxels\ cap\ a\ l'esquerra.\ Amb\ la\ barra\ espacioador,\ ens\ dispara\ una\ roca\r\n\r\n
+comment3.params=
+comment3.target=void\ animaImatgeCranc()
+comment3.text=\r\n\ M\u00E8tode\ animaImatgeCranc.\ Anima\ la\ imatge\ del\ cranc,\ per\ a\ que\ parega\ que\ es\ va\ movent\r\n
+comment4.params=
+comment4.target=void\ disparaRoca()
+comment4.text=\r\n\ M\u00E8tode\ disparaRoca.\ Crea\ un\ objecte\ roca\ al\ m\u00F3n\ en\ la\ mateixa\ posici\u00F3\ que\ es\ troba\ el\ cranc.\ \r\n\ Activa\ la\ variabe\ disparant\ al\ valor\ true\r\n
+comment5.params=
+comment5.target=void\ gameOver()
+comment5.text=\r\n\ M\u00E8tode\ gameOver.\ Executa\ un\ so\ per\ indicar\ que\ hem\ acabat\ el\ joc\ \r\n
+comment6.params=
+comment6.target=int\ getPunts()
+comment7.params=valor
+comment7.target=void\ setPunts(int)
+comment8.params=
+comment8.target=int\ getVida()
+comment9.params=v
+comment9.target=void\ setVida(int)
+numComments=10

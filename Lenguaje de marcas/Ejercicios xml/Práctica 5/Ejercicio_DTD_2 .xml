@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE agenda [ 
+<!ELEMENT recetas (#PCDATA)> 
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo_comida (desayuno, almuerzo, merienda, comida, cena)>
+<!ELEMENT ingredientes_nec (#PCDATA)>
+<!ELEMENT dificultad (bajo+, medio+, alto+)>
+]>
+
+<lista_receta>
+	<receta>
+		<autor>Paco</autor>
+		<nombre>Paco</nombre>
+		<tipo_comida>comida o cena</tipo_comida>
+		<ingredientes>huevos, patatas</ingredientes>
+		<dificultad>bajo</dificultad>
+	</receta>
+	<receta>
+		<autor>Alberto</autor>
+		<nombre>Alberto</nombre>
+		<tipo_comida>comida o cena</tipo_comida>
+		<ingredientes>Pollo con patatas y guisado</ingredientes>
+		<dificultad>medio</dificultad>
+	</receta>
+	<receta>
+		<autor>Manuel</autor>
+		<nombre>Manuel</nombre>
+		<tipo_comida>cena</tipo_comida>
+		<ingredientes>Pescado a la plancha y limón</ingredientes>
+		<dificultad>medio</dificultad>
+	</receta>
+</lista_receta>

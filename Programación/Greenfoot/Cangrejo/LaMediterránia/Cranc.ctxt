@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cranc()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Cranc\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment10.params=
+comment10.target=int\ getVida()
+comment11.params=
+comment11.target=int\ getPuntuacion()
+comment2.params=
+comment2.target=void\ switchImage()
+comment3.params=
+comment3.target=void\ moveIzquierda()
+comment4.params=
+comment4.target=void\ moveDerecha()
+comment5.params=
+comment5.target=void\ disparo()
+comment6.params=
+comment6.target=void\ teclaDerecha()
+comment7.params=
+comment7.target=void\ teclaIzquierda()
+comment8.params=
+comment8.target=void\ teclaDisparo()
+comment9.params=
+comment9.target=void\ muerte()
+numComments=12

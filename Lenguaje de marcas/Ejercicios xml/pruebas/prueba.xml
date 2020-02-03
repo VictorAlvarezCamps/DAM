@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<migrupo>
+	<alumno>
+		<nom>Juanito</nom>
+		<localidad>Catarroja</localidad>
+		<edad>20</edad>
+	</alumno>
+	<alumno>
+		<nom>Jorgito</nom>
+		<localidad>Albal</localidad>
+		<edad>21</edad>
+	</alumno>
+	<alumno>
+		<nom>Jaimito</nom>
+		<localidad>Valencia</localidad>
+		<edad>22</edad>
+	</alumno>
+</migrupo>

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=i1\ i2
+comment0.target=Foca(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ mouFoca()
+comment3.params=
+comment3.target=void\ canviamLaImatge()
+comment4.params=
+comment4.target=void\ espera1Segon()
+comment5.params=
+comment5.target=void\ atrapaBala()
+comment5.text=\r\n\ Method\ atrapaBala\ Si\ la\ bala\ esta\ tocant\ la\ foca,\ eliminem\ la\ bala\ del\ m\u00F3n.\r\n\ I\ fem\ sonar\ el\ so\ "tambors.wav"\r\n
+comment6.params=
+comment6.target=int\ atrapaPosLetra()
+numComments=7

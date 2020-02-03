@@ -1,0 +1,189 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import javax.swing.JOptionPane;
+/**
+ * Write a description of class MonDStrings here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MonDStrings extends World
+{
+    private String cognom1,cognom2,nom;    
+    private int numeros[];
+    
+    public MonDStrings()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(600, 400, 1); 
+    }
+    
+    public void exercici2(){
+        String cognomsInom=null;
+        cognomsInom=JOptionPane.showInputDialog(null,"cognom1 cognom2, nom","Dades",JOptionPane.INFORMATION_MESSAGE);
+        System.out.println("Has introducido: "+cognomsInom);
+        
+        String cognom1=cognomsInom.substring(0,cognomsInom.indexOf(" "));
+        System.out.println("El primer cognom es: "+cognom1);
+        
+        String cognom2=cognomsInom.substring(cognomsInom.indexOf(" "),cognomsInom.indexOf(","));
+        System.out.println("El segon cognom es: "+cognom2);
+        
+        String nom=cognomsInom.substring(cognomsInom.indexOf(",")+1,cognomsInom.lastIndexOf(""));
+        System.out.println("El nom es: "+nom);
+        
+        cognom1=escriuInicialAmbMajuscules(cognom1);
+        cognom2=escriuInicialAmbMajuscules(cognom2);
+        nom=escriuInicialAmbMajuscules(nom);
+        
+        System.out.println("El resultat es: "+nom+" "+cognom1+""+cognom2);
+    }
+    
+    public String escriuInicialAmbMajuscules(String c){
+        String inicial = c.substring(0,1);
+        String resto = c.substring(1);
+        return (inicial.toUpperCase()+resto);
+    }
+    
+    public void exercici1(){
+        String nif;
+        
+        boolean esCorrecte=true;        
+        
+        nif=JOptionPane.showInputDialog(null,"Introdueix un NIF(8 valors i lletra)","Dades",JOptionPane.INFORMATION_MESSAGE);
+        nif=nif.toUpperCase();
+        System.out.println("Has introduit: "+nif);
+        
+        if(nif.length()!=9){
+            esCorrecte=false;
+        }else{
+            if(esLletra(nif.charAt(nif.length()-1))==false){
+                esCorrecte=false;
+            }else{
+               for(int i=0;i<8;i++){
+                   if(esDigit(nif.charAt(i))==true){                      
+                   }else{
+                       esCorrecte=false;
+                       break;
+                   }
+               }
+            }
+        }
+        if(esCorrecte==false){
+            System.out.println("NIF no vàlid");
+        }else{
+            System.out.println("NIF correcte");
+        }
+    }
+    
+    public boolean esDigit(char c){
+        String nombres="0123456789";
+        int pos=nombres.indexOf(c);
+        if(pos==-1){
+            return false;
+        }else{
+            return true;
+        }
+    }
+    
+    public boolean esLletra(char c){
+        String lletres="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        int pos=lletres.indexOf(c);
+        if(pos==-1){
+            return false;
+        }else{
+            return true;
+        }
+    }
+    
+    public void exercici3(){       
+        String cadena=JOptionPane.showInputDialog(null,"Introdueix una cadena de numeros","Dades",JOptionPane.INFORMATION_MESSAGE);        
+        String resultat[];
+        int suma=0;
+        resultat = cadena.split(",");
+        
+        for (int i=0;i<resultat.length;i++){
+            System.out.println("Element "+i+"de resultat="+resultat[i]);
+            suma=suma+Integer.parseInt(resultat[i]);
+        }
+        System.out.println("La suma de tots els elements es: "+suma);
+        }
+        
+    public void exercici4(){
+         final int Num_Paraules=5;
+         String paraules[]=new String [Num_Paraules];
+         String aux;
+         for (int i=0;i<Num_Paraules;i++){
+             aux=JOptionPane.showInputDialog(null,"Introdueix 5 paraules:","Dades",JOptionPane.INFORMATION_MESSAGE);
+             if(aux.indexOf(" ")!=-1){
+                 paraules[i]=aux.substring(0,aux.indexOf(" "));
+             }else{ //No hi ha + que 1 paraula!!
+                 paraules[i]=aux;
+             }
+         }         
+         for(int i=4;i>=0;i--){
+                paraules[i]=inverteixParaula(paraules[i]);
+                System.out.println("Les paraules al inrevés son: "+paraules[i]);
+         }
+    }
+    
+    public String inverteixParaula(String unaParaula){
+        String resultat="";
+        int tamany=unaParaula.length()-1;
+        for(int i=tamany;i>=0;i--){
+            resultat=resultat+unaParaula.charAt(i);
+        }
+        return resultat;
+    }
+    
+    public void paraulaCapicua() {         
+        String palabra; 
+        int l,i=0; 
+        char a,b;
+        
+        palabra=JOptionPane.showInputDialog(null,"Escriu una paraula: ","Dades",JOptionPane.INFORMATION_MESSAGE);         
+        l=palabra.length(); 
+         
+        while(i<(l/2)){             
+            a=palabra.charAt(i);
+            b=palabra.charAt((l-1)-i) ;             
+            if(a==b){ 
+                i=i+1; 
+            } 
+            else{i=100;} 
+            } 
+         
+        if(i<100){ 
+            /*System.out.println("La paraula es capicua");*/
+            JOptionPane.showMessageDialog(null,"La paraula es capicua");
+        }
+        else{
+            /*System.out.println("La paraula no es capicua");*/
+            JOptionPane.showMessageDialog(null,"La paraula no es capicua");
+        } 
+    }
+    
+    public void exercici5() {
+        String frase;
+        
+        frase=JOptionPane.showInputDialog(null,"Escriu una frase de diverses paraules: ","Dades",JOptionPane.INFORMATION_MESSAGE);
+        if(frase!=null){
+            String[] arrayDeParaules = frase.split(" ");
+            for(int i=0;i<arrayDeParaules.length;i=i+2){
+               JOptionPane.showMessageDialog(null,"Paraula senar: "+arrayDeParaules[i]+" ");
+            }
+        }else{
+            JOptionPane.showMessageDialog(null,"Has introduit una cadena buida");
+        }
+    }
+    
+    public void tornaLletraDNI(){
+        char DNI[]={'T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};        
+        
+        String dni=JOptionPane.showInputDialog(null,"Escriu un DNI: ","Dades",JOptionPane.INFORMATION_MESSAGE);
+        int div=Integer.parseInt(dni);
+        int solucio=div%23;
+        System.out.println("La lletra es: "+DNI[solucio]);
+    }
+    
+    
+}

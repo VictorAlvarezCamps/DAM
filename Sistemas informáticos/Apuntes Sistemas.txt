@@ -1,0 +1,44 @@
+SIMD:
+
+	-MMX
+	-3DNow
+	-SSE
+	-SSE2
+	-SSE3
+
+CoolQuiet:
+
+	-Ajusta frecuencia de CPU a necesidad de proceso.
+	-Disminuye consumo eléctrico.
+	-Reduce energía disipado.
+	-Reduce zumbido del ventilador.
+
+Niveles de caché:
+
+	-L1: Más lejos de la memoria RAM y más cerca del CPU.
+	-L2
+	-L3: Más próxima a la memoria RAM.
+
+SmartCaché:
+	
+	-Desplazar cache dependiendo del consumo de cada uno.
+	-Acelerador no.
+
+TurboBoost: "Overlocking".
+
+EIST: Como el CoolQuiet.
+
+HT: (Hyperthreading)
+
+Vpro: Conjunto de AES-NI,TXT y XD.
+
+Aes-ni: Protección para encriptar y desencriptar.
+
+TXT: Marcar código,como codigo de confianza y poder acceder a todo el espacio del procesador.
+
+XD: Para datos o código, evitará ejecutar datos de aplicación.Añade un bit de diferencia para que no se ejecuten los datos.
+
+VT-d: Ampliación de juego de instrucciones para agilizar la ejecución de máquinas virtuales.Para que las maquinas virtuales
+no pasen por el sistema operativo.Agilizar la ejecución de máquinas/entornos virtuales.
+
+Seleccionar procesador para satisfacer una necesidad.(Pregunta examen)

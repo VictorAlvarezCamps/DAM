@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.W3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:element name="Tienda">
+ <xs:complexType>
+   <xs:sequence>
+     <xs:element name="pedido" maxOccurs="unbounded">
+       <xs:complexType>
+         <xs:sequence>
+           <xs:element name="tlfnocliente" type="xs:integer"/>
+           <xs:element name="fechapedido" type="xs:date"/>
+           <xs:element name="contenido" type="xs:string"/>           
+         </xs:sequence>
+	   </xs:complexType>
+     </xs:element>
+   </xs:sequence>
+ </xs:complexType>
+</xs:element>
+</xs:schema>

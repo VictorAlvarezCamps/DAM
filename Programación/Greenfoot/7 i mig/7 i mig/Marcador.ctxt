@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Marcador()
+comment1.params=
+comment1.target=int\ getPuntosJugador()
+comment2.params=j
+comment2.target=void\ setPuntosJugador(int)
+comment3.params=
+comment3.target=int\ getPuntosBanca()
+comment4.params=b
+comment4.target=void\ setPuntosBanca(int)
+comment5.params=
+comment5.target=void\ incrementaJugador()
+comment6.params=
+comment6.target=void\ incrementaBanca()
+comment7.params=
+comment7.target=void\ refrescar()
+numComments=8

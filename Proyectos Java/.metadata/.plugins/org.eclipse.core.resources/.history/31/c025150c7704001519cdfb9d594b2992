@@ -1,0 +1,12 @@
+package modelos;
+
+import Vista.VentanaUsuario;
+
+public class Main {
+
+	public static void main(String[] args) {
+		VentanaUsuario VentanaUsuario = new VentanaUsuario();
+		VentanaUsuario.setVisible(true);
+	}
+
+}

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=image\ name
+comment0.target=Corredor(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Corredor\ Constructor\r\n\r\n\ @param\ image\ la\ imatge\ que\ representar\u00E0\ al\ corredor\r\n\ @param\ name\ el\ nom\ que\ identificar\u00E0\ a\ eixe\ corredor\r\n
+comment1.params=distancia
+comment1.target=void\ avanca(int)
+comment1.text=\r\n\ Method\ avanca.\ Permet\ a\ un\ corredor\ avan\u00E7ar\ una\ dist\u00E0ncia\ donada\ en\ la\ cursa.\ Cal\ tenir\ en\ conter\ que\r\n\ un\ metre\ (en\ condicions\ normals\ equival\ a\ 10\ pixels),\ i\ si\ esta\ atravessant\ algun\ obstacle,\ equival\ a\ 5\ pixels.\r\n\ Aquest\ m\u00E8tode\ incrementa\ el\ camp\ pixelsRecorreguts,\ en\ la\ quantitat\ que\ ha\ avan\u00E7at\ el\ corredor\r\n\ @param\ distancia\ Dist\u00E0ncia\ (en\ metres)\ que\ avan\u00E7a\ un\ corredor\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Corredor\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=clss
+comment3.target=boolean\ canSee(java.lang.Class)
+comment3.text=\r\n\ Method\ canSee.\ M\u00E8tode\ que\ permet\ saber\ si\ un\ corredor\ pot\ vore\ un\ obstacle\ durant\ la\ seua\ traject\u00F2ria.\r\n\r\n\ @param\ clss\ Classe\ que\ representa\ un\ obstacle\r\n\ @return\ true\ o\ false\r\n
+numComments=4

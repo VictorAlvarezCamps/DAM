@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body bgcolor="#33FF00">
+	<h1><b>Datos de la escuela de fútbol</b></h1>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bienvenidos a la escuela de fútbol para niños,situada en Valencia. Aquí os proporcionaremos datos y un pequeño formulario de la escuela para saber en que está interesado nuestro cliente.Somos una escuela que lleva en pie más de 40 años, y seguimos creciendo cada día más!<br>
+     <br>   
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La escuela está situada cerca del centro, contiene cafetería, baños, vestuarios, gimnasio, incluso pequeñas tiendas donde poder comprar recuerdos. 
+	<br>
+	<br>
+    <center>
+	<table border="2">
+    	<tr>
+        	<td colspan="6">Horarios de entrenamientos por categorías</td>
+        <tr>
+        	<td></td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        <tr>
+        	<td>Prebenjamín</td>
+            <td></td>
+            <td></td>
+            <td>18:00</td>
+            <td></td>
+            <td>18:00</td>
+        <tr>
+        	<td>Benjamín</td>
+            <td>18:00</td>
+            <td></td>
+            <td></td>
+            <td>18:00</td>
+            <td></td>
+        <tr>
+        	<td>Alevín</td>
+            <td></td>
+            <td>18:00</td>
+            <td></td>
+            <td></td>
+            <td>18:00
+        <tr>
+        	<td>Infantil</td>
+            <td>19:00</td>
+            <td></td>
+            <td></td>
+            <td>19:00</td>
+            <td></td>
+        <tr>
+        	<td>Cadete</td>
+            <td></td>
+            <td>19:00</td>
+            <td></td>
+            <td>19:00</td>
+            <td></td>
+        <tr>
+        	<td>Juvenil</td>
+            <td>19:00</td>
+            <td></td>
+            <td>19:00</td>
+            <td></td>
+            <td>19:00</td>
+    </table>
+    </center>
+ <br>
+ <fieldset>
+ <h1><b>Datos principales:</b></h1>
+ <form action=mailto:victor.alvarez.camps@gmail.com method=“post” enctype=“text/plain” enctype="multipart/form-data">
+   Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=“text” name=“name” size=“30”><br>
+   Apellidos:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=“text” name=“apll” size=“30”><br>
+   Fecha de nacimiento:&nbsp;&nbsp;&nbsp;<input type=“date” name=“fecha” onkeyup="mascara(this,'/',patron,true)"<br>
+   Dirección:<input type=“text” name=“dir” size=“50” ><br>
+   Teléfono 1:<input type=“tel” name=“tel-uno” size=“10” maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
+   Teléfono 2:<input type=“tel” name=“tel-dos” size=“10” maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;"><br>
+   Nombre y Apellidos del padre y la madre:<input type=“text” name=“padres” size=“100”>
+</fieldset>
+<br>
+<fieldset>
+	<h1><b><center>Categoría a la que pertenece el niño/a:</center></b></h1>
+<input type="radio" name="categoria" value="Prebenjamín"/>Prebenjamín<br/> 
+<input type="radio" name="categoria" value="Benjamín"/>Benjamín<br/> 
+<input type="radio" name="categoria" value="Alevín"/>Alevín<br/>
+<input type="radio" name="categoria" value="Infantil"/>Infantil<br/> 
+<input type="radio" name="categoria" value="Cadete"/>Cadete<br/> 
+<input type="radio" name="categoria" value="Juvenil"/>Juvenil<br/> 
+</fieldset>
+<br><center>
+<br>
+<fieldset>
+<h1><b>Demarcaciones que puede ocupar el niño:</b></h1>
+<br>
+<input type="checkbox" name="Portero" value="Portero">Portero<br>
+<input type="checkbox" name="Defensa" value="Defensa">Defensa<br>
+<input type="checkbox" name="Centrocampista" value="Centrocampista">Centrocampista<br>
+<input type="checkbox" name="Delantero" value="Delantero">Delantero<br>
+
+</fieldset>
+<br>
+<fieldset>
+<h1><b>Dorsal que llevará el niño:</b></h1>
+<select name="dorsal">    
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       <option value="11">11</option>
+       <option value="12">12</option>
+       <option value="13">13</option>
+       <option value="14">14</option>
+       <option value="15">15</option>
+       <option value="16">16</option>
+       <option value="17">17</option>
+       <option value="18">18</option>
+       <option value="19">19</option>
+       <option value="20">20</option>
+   </select>
+</fieldset>
+Sube una foto:
+<input name="imagen" type="file" />
+<h1><b>Comentarios:</b></h1>
+<textarea name="comentarios" rows="10" cols="40"></textarea>
+<br>
+<input type=“submit” value=“Enviar” ><input type=“reset” value=“Borrar”></center>
+
+</form>
+
+</body>
+</html>

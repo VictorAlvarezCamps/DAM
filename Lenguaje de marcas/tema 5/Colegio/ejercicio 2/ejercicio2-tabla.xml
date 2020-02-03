@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio2.xsl"?>
+<Centro>  
+   <Curso>
+      <Alumno>Pepe</Alumno>
+      <Asignatura>Matemáticas</Asignatura> 
+      <Nota>7,8</Nota>
+      <Fecha>4/3/2014</Fecha>	  
+   </Curso>
+   <Curso>
+      <Alumno>Ana</Alumno>
+      <Asignatura>Literatura</Asignatura> 
+      <Nota>7,2</Nota>
+      <Fecha>5/3/2014</Fecha>	  
+   </Curso>
+   <Curso>
+      <Alumno>Juan</Alumno>
+      <Asignatura>Inglés</Asignatura> 
+      <Nota>8,3</Nota>
+      <Fecha>6/3/2014</Fecha>	  
+   </Curso>
+   <Curso>
+      <Alumno>Pepe</Alumno>
+      <Asignatura>Inglés</Asignatura> 
+      <Nota>8,1</Nota>
+      <Fecha>6/3/2014</Fecha>	  
+   </Curso>
+</Centro>
+   

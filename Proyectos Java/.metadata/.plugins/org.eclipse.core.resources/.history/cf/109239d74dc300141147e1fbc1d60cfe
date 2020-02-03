@@ -1,0 +1,92 @@
+package dam.pro.prova;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class EscriuFitxers {
+	static Scanner sc;
+	static String nomAAfegir;
+	static String nomFitxer;
+	
+	public static String introdueixNomFitxer(){
+		String nomFitxer;
+		//llegirem del teclat!!!!
+		Scanner sc = new Scanner(System.in);
+				
+		System.out.print("Introdueix el nom del fitxer:");
+		nomFitxer = sc.nextLine();
+		sc.close();
+		return nomFitxer;
+	}
+	
+	public static void llegirFitxer(String nomFitxer){
+		File f;
+		/*ArrayList<String> palabras = new ArrayList<String>();*/
+		String aNoms[] = new String[4];
+		f = new File("C:\\Users\\vialca01\\Desktop\\"+nomFitxer);
+		
+		FileReader fr;
+		try {
+			fr = new FileReader(f);
+			BufferedReader br = new BufferedReader(fr);
+			String linea;
+	        int i=0;
+	        
+	        while((linea=br.readLine())!=null){
+	        	aNoms[i]=linea;
+	            System.out.println(linea);
+	            i++;
+	        }
+	        
+	        fr.close();
+
+		} catch (FileNotFoundException e) {	
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		String nf;
+		//llegim nom del fitxer
+		nf=introdueixNomFitxer();
+		//mètode que llig un fitxer
+		llegirFitxer(nf);
+		//legir un nom a afegir al fitxer
+		nomAAfegir=sc.nextLine();
+		//Escrivim el nom introduit al fitxer
+		escriuEnFitxer(nomAAfegir);
+	}
+	
+	public static void escriuEnFitxer(String nAA){
+		FileWriter fw;
+		try{
+			System.out.println("Vaig a afegir..."+nAA);
+			fw = new FileWriter("C:\\Users\\vialca01\\Desktop\\"+nomFitxer,true);
+			BufferedWriter bw = new BufferedWriter(fw);
+			bw.append(nAA);
+			bw.close();
+			fw.close();
+		}catch (IOException e){
+			e.printStackTrace();
+		}
+	}
+	
+	/*public static String disMeNom(){
+		String elNomAAfegir;
+		elNomAAfegir=sc.nextLine();
+		sc.close();
+		
+		return elNomAAfegir;
+	}*/
+	
+}

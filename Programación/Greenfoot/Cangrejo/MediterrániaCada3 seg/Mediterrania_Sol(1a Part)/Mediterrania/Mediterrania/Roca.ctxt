@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=c
+comment0.target=Roca(Cranc)
+comment0.text=\r\n\ Construc\ tor\ d'objectes\ Roca\r\n\ Aquest\ m\u00E8tode\ ens\ construeix\ un\ objecte\ de\ la\ classe\ Roca.\ Com\ que\ quan\ la\ roca\ col\u00B7lisione\ amb\ un\ enemic\r\n\ necessitarem\ incrementar-li\ punts\ a\ l'objecte\ cranc,\ una\ manera\ senzilla\ de\ fer-ho\ \u00E9s\ rebent\ una\ refer\u00E8ncia\r\n\ del\ cranc\ que\ ha\ llan\u00E7at\ la\ roca,\ per\ a\ sumar-li\ directament\ els\ punts.\r\n\r\n\ @param\ una\ refer\u00E8ncia\ del\ Cranc\ que\ ha\ disparat\ la\ Roca.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=boolean\ rocaEnLimitS()
+comment2.text=\r\n\ M\u00E8tode\ rocaEnLimitS\ Comprova\ si\ la\ roca\ ha\ arribat\ al\ l\u00EDmit\ Superior\ del\ m\u00F3n\r\n\r\n\ @return\ Torna\ true,\ en\ cas\ que\ si\ haja\ arribat\ al\ l\u00EDmit\ superior\ i\ false\ en\ cas\ contrari.\r\n
+comment3.params=
+comment3.target=void\ destrueixEnemic()
+comment3.text=\r\n\ M\u00E8tode\ destrueixEnemic.\ Aquest\ m\u00E8tode\ destrueix\ l'enemic\ amb\ el\ que\ ha\ colisionat\ la\ roca,\ agafant-li\r\n\ els\ punts\ que\ li\ corresponien\ a\ l'enemic\ i\ afegint-li'ls\ als\ punt\ que\ t\u00E9\ el\ cranc\r\n\r\n
+comment4.params=
+comment4.target=void\ eliminarRoca()
+comment4.text=\r\n\ M\u00E8tode\ eliminarRoca\ Elimina\ aquesta\ roca\ del\ m\u00F3n\r\n\r\n
+numComments=5

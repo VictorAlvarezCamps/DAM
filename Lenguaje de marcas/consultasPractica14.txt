@@ -1,0 +1,29 @@
+Consulta 1
+
+for $tienda in doc("ractica14.xml")//tienda/Proveedor
+where $tienda/proveedor="Pepe"
+return $tienda/Producto/NomProd
+
+Consulta 2
+
+for $tienda in doc("ractica14.xml")//tienda/Proveedor
+where $tienda/Producto/Temporada = "Verano" and $tienda/Producto/PrecioKg < "3,00€"
+return $tienda/Producto/NomProd
+
+Consulta 3
+
+for $tienda in doc("ractica14.xml")//tienda/Proveedor
+where $tienda/Producto/CategProd="A" or $tienda/Producto/CategProd="B"
+return $tienda/Producto/NomProd
+
+Consulta 4
+
+for $tienda in doc("ractica14.xml")//tienda/Proveedor
+where $tienda/Ciudad="Valencia"
+return $tienda/proveedor
+
+Consulta 5
+
+for $tienda in doc("ractica14.xml")//tienda/Proveedor
+where $tienda/Año="1997"
+return $tienda/Producto/NomProd

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE Colegio[
+<!ELEMENT Tutor (nomTutor, grupo, ciudad, alumno)>
+<!ELEMENT Alumno (nomAlum, direccion, poblacion, fechaNac, notaMedia)>
+<!ELEMENT nomTutor (#PCDATA)>
+<!ELEMENT grupo (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT nomAlum (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT fechaNac (#PCDATA)>
+<!ELEMENT notaMedia (#PCDATA)>
+]>
+
+<Colegio>
+	<Tutor>
+		<nomTutor>Pepe</nomTutor>
+		<grupo>5ºA</grupo>
+		<ciudad>Paterna</ciudad>
+		<Alumno>
+			<nomAlumno>Pepito</nomAlumno>
+			<direccion>C/ El pez, 4</direccion>
+			<poblacion>Catarroja</poblacion>
+			<fechaNac>04/06/2004</fechaNac>
+			<tutor>Pepe</tutor>
+			<notaMedia>6</notaMedia>
+		</Alumno>
+		<Alumno>
+			<nomAlumno>Evita</nomAlumno>
+			<direccion>C/La luna 2</direccion>
+			<poblacion>Silla</poblacion>
+			<fechaNac>03/03/2003</fechaNac>
+			<tutor>Pepe</tutor>
+			<notaMedia>8</notaMedia>
+		</Alumno>
+		<Alumno>
+			<nomAlumno>Pedrito</nomAlumno>
+			<direccion>C/El pez 7</direccion>
+			<poblacion>Catarroja</poblacion>
+			<fechaNac>09/09/2003</fechaNac>
+			<tutor>Pepe</tutor>
+			<notaMedia>8</notaMedia>
+		</Alumno>
+	</Tutor>
+	<Tutor>
+		<nomTutor>Ana</nomTutor>
+		<grupo>5ºB</grupo>
+		<ciudad>Torrente</ciudad>
+		<Alumno>
+			<nomAlumno>Anita</nomAlumno>
+			<direccion>C/El pájaro 7</direccion>
+			<poblacion>Albal</poblacion>
+			<fechaNac>03/04/2004</fechaNac>
+			<tutor>Ana</tutor>
+			<notaMedia>7</notaMedia>
+		</Alumno>
+		<Alumno>
+			<nomAlumno>Laurita</nomAlumno>
+			<direccion>C/El cerez, 1</direccion>
+			<poblacion>Catarroja</poblacion>
+			<fechaNac>03/04/2004</fechaNac>
+			<tutor>Ana</tutor>
+			<notaMedia>7</notaMedia>
+		</Alumno>
+		<Alumno>
+			<nomAlumno>Miguelito</nomAlumno>
+			<direccion>C/La trucha 4</direccion>
+			<poblacion>Silla</poblacion>
+			<fechaNac>03/04/2004</fechaNac>
+			<tutor>Ana</tutor>
+			<notaMedia>9</notaMedia>
+		</Alumno>
+	</Tutor>
+	<Tutor>
+		<nomTutor>Juan</nomTutor>
+		<grupo>6ºA</grupo>
+		<ciudad>Torrente</ciudad>
+		<Alumno>
+			<nomAlumno>Juanito</nomAlumno>
+			<direccion>C/El leon 2</direccion>
+			<poblacion>Catarroja</poblacion>
+			<fechaNac>01/06/2003</fechaNac>
+			<tutor>Juan</tutor>
+			<notaMedia>7</notaMedia>
+		</Alumno>
+		<Alumno>
+			<nomAlumno>Luisito</nomAlumno>
+			<direccion>C/El pajaro 3</direccion>
+			<poblacion>Albal</poblacion>
+			<fechaNac>07/08/2003</fechaNac>
+			<tutor>Juan</tutor>
+			<notaMedia>6</notaMedia>
+		</Alumno>
+		<Alumno>
+			<nomAlumno>Carlita</nomAlumno>
+			<direccion>C/El arbol 1</direccion>
+			<poblacion>Albal</poblacion>
+			<fechaNac>06/05/2003</fechaNac>
+			<tutor>Juan</tutor>
+			<notaMedia>7</notaMedia>
+		</Alumno>
+	</Tutor>	
+</Colegio>

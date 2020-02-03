@@ -1,0 +1,33 @@
+CREATE DEFINER=`root`@`localhost` FUNCTION `actividad_3`(n integer) RETURNS int(11)
+
+BEGIN
+
+
+
+declare n int;
+
+declare i int;
+
+set i=1;
+
+
+
+loop_suma: LOOP
+
+
+    
+    if i<=n then
+
+
+    
+		set i=i+i;
+
+
+     
+    end if;
+
+END LOOP;
+
+return i;
+
+END

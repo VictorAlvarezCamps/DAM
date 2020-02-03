@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="alumnos1.xsl"?>
+<?xml-stylesheet type="text/xsl" href="alumnos2.xsl"?>
+<Colegio>
+	<Alumno>
+		<Nombre>Juanito</Nombre>
+		<Direccion>C/Los juanes</Direccion>
+		<Poblacion>Valencia</Poblacion>
+		<FechaNacimiento>23-5-1991</FechaNacimiento>
+		<CursoActual>1</CursoActual>
+		<tlfnoContacto>965482658</tlfnoContacto>
+	</Alumno>
+	<Alumno>
+		<Nombre>Jaimito</Nombre>
+		<Direccion>C/Los jaimitos</Direccion>
+		<Poblacion>Madrid</Poblacion>
+		<FechaNacimiento>15-8-1992</FechaNacimiento>
+		<CursoActual>2</CursoActual>
+		<tlfnoContacto>969556977</tlfnoContacto>
+	</Alumno>
+	<Alumno>
+		<Nombre>Jorgito</Nombre>
+		<Direccion>C/Los jorgitos</Direccion>
+		<Poblacion>Barcelona</Poblacion>
+		<FechaNacimiento>7-11-1993</FechaNacimiento>
+		<CursoActual>3</CursoActual>
+		<tlfnoContacto>964782555</tlfnoContacto>
+	</Alumno>
+</Colegio>

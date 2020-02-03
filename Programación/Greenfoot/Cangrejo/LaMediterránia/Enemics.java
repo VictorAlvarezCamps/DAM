@@ -1,0 +1,101 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Enemics here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Enemics extends Actor
+{
+    int tipoEnemic;
+    int puntos;
+    int ferocidad;
+    int velocidad;
+    
+    public Enemics()
+    {
+        
+    }
+    
+    /**
+     * Act - do whatever the Enemics wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        
+    }
+
+    public void turnLeft()
+    {
+        setRotation(getRotation() - 90);
+    }
+    
+    public void turnRight()
+    {
+        setRotation(getRotation() + 90);
+    }
+    
+    public boolean bordeMundoY()
+    {
+        World mar = getWorld();
+        int y = getY();
+        
+        if (y >= mar.getHeight()-1 || y <= 0){
+            return true;
+        }
+        else{return false;}
+    }
+    
+    public boolean bordeMundoX()
+    {
+        World mar = getWorld();
+        int x = getX();
+        
+        if (x >= mar.getWidth()-1 || x <= 0){
+            return true;
+        }
+        else{return false;}
+    }
+    
+    public int getTipo()
+    {
+        return tipoEnemic;
+    }
+    
+    public int getPuntos()
+    {
+        return puntos;
+    }
+    
+    public int getFerocidad()
+    {
+        return ferocidad;
+    }
+    
+    public int getVelocidad()
+    {
+        return velocidad;
+    }
+    
+    public void encuentraCranc()
+    {
+        if(isTouching(Cranc.class)){
+            Cranc c;
+            c = (Cranc)getOneIntersectingObject(Cranc.class);
+            c.vida = c.vida - this.ferocidad;
+        }
+    }
+    
+    public void teletrans()
+    {
+        if(isTouching(Cranc.class)){
+            int x = Greenfoot.getRandomNumber(600);
+            setLocation(x,0);
+        }
+    }
+    
+    public int X(){int x =getX();return x;}
+    public int Y(){int y =getY();return y;}
+}

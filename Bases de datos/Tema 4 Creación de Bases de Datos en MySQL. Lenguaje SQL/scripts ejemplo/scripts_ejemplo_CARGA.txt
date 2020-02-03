@@ -1,0 +1,2 @@
+4	1983-03-12	eSPAÑA	37000	600000	Jaime	corti s.a.
+5	1960-12-12	Inglaterra	45000	95000	Pedro	Isma S.L

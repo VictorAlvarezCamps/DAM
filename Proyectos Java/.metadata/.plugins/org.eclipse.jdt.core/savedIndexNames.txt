@@ -1,0 +1,11 @@
+INDEX VERSION 1.127+G:\Florida\Proyectos Java\.metadata\.plugins\org.eclipse.jdt.core
+16797710.index
+3470097111.index
+1786294374.index
+871419216.index
+1974148246.index
+1163238057.index
+1243477082.index
+2117089450.index
+44837888.index
+104480648.index

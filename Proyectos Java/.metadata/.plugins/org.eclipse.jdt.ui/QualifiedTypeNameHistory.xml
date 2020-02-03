@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="kukabuka.other.JFrameKukabuka"/>
+<fullyQualifiedTypeName name="java.awt.Label"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="kukabuka.config.Idioma"/>
+<fullyQualifiedTypeName name="kukabuka.model.ConexionDB"/>
+<fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+<fullyQualifiedTypeName name="kukabuka.model.Receta"/>
+<fullyQualifiedTypeName name="kukabuka.controller.ControladorInicio"/>
+<fullyQualifiedTypeName name="kukabuka.other.BotonReceta"/>
+<fullyQualifiedTypeName name="java.awt.GridLayout"/>
+<fullyQualifiedTypeName name="kukabuka.gui.VentanaInicio"/>
+<fullyQualifiedTypeName name="kukabuka.controller.ControladorPrincipal"/>
+<fullyQualifiedTypeName name="javax.swing.JComboBox"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="java.awt.GridBagLayout"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Vista.VentanaUsuario"/>
+<fullyQualifiedTypeName name="Vista.VentanaPrincipal"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.CardLayout"/>
+<fullyQualifiedTypeName name="modelos.Cadete"/>
+</qualifiedTypeNameHistroy>

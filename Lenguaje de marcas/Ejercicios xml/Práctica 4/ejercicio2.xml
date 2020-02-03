@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Libro>
+	<Titulo_libro>La Ilíada
+	<Editorial>RBA
+	<Fecha_publicacion>06/11/2014
+	<ISBN>978-1234567897
+	<Autor_o_autores>
+		<info_autor>
+			<nombre>Homero
+			<pais_origen>España
+		</info_autor>
+	</Autor_o_autores>
+</Libro>
+<Libro>
+	<Titulo_libro>La Orestíada
+	<Editorial>Bromera
+	<Fecha_publicacion>06/11/2014
+	<ISBN>978-0-7334-2609-4
+	<Autor_o_autores>
+		<info_autor>
+			<nombre>Esquilo y Mary Reilly
+			<pais_origen>España
+		</info_autor>
+	</Autor_o_autores>
+</Libro>
+<Libro>
+	<Titulo_libro>Don Quijote de la Mancha
+	<Editorial>Anagrama
+	<Fecha_publicacion>07/11/2014
+	<ISBN>978-950-42-0085-7
+	<Autor_o_autores>
+		<info_autor>
+			<nombre>Miguel de Cervantes y Arthur Rimbaud
+			<pais_origen>España
+		</info_autor>
+	</Autor_o_autores>
+</Libro>
+<Libro>
+	<Titulo_libro>Cantar de Mio Cid
+	<Editorial>Anaya
+	<Fecha_publicacion>07/11/2014
+	<ISBN>978-84-936308-5-0
+	<Autor_o_autores>Anonimo
+		<info_autor>
+			<nombre>Anonimo
+			<pais_origen>España
+		</info_autor>
+	</Autor_o_autores>
+</Libro>
+<Libro>
+	<Titulo_libro>Decamerón
+	<Editorial>Alfaguara
+	<Fecha_publicacion>08/11/2014
+	<ISBN>978-987-27614-5-5
+	<Autor_o_autores>
+		<info_autor>
+			<nombre>Boccacio y San Juan de la Cruz
+			<pais_origen>España
+		</info_autor>
+	</Autor_o_autores>
+</Libro>

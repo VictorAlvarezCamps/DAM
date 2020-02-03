@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MonDStrings()
+comment1.params=
+comment1.target=void\ exercici2()
+comment10.params=
+comment10.target=void\ exercici5()
+comment11.params=
+comment11.target=void\ tornaLletraDNI()
+comment2.params=c
+comment2.target=java.lang.String\ escriuInicialAmbMajuscules(java.lang.String)
+comment3.params=
+comment3.target=void\ exercici1()
+comment4.params=c
+comment4.target=boolean\ esDigit(char)
+comment5.params=c
+comment5.target=boolean\ esLletra(char)
+comment6.params=
+comment6.target=void\ exercici3()
+comment7.params=
+comment7.target=void\ exercici4()
+comment8.params=unaParaula
+comment8.target=java.lang.String\ inverteixParaula(java.lang.String)
+comment9.params=
+comment9.target=void\ paraulaCapicua()
+numComments=12

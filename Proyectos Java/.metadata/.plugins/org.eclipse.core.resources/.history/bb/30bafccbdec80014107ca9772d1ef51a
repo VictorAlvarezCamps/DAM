@@ -1,0 +1,94 @@
+package ventanas;
+
+import javax.swing.JFrame;
+
+import java.awt.FlowLayout;
+import java.awt.BorderLayout;
+
+import javax.swing.JLabel;
+import javax.swing.JMenuBar;
+import javax.swing.JButton;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+import javax.swing.JTextField;
+
+import java.awt.Dimension;
+import java.awt.Panel;
+import java.awt.Button;
+import java.awt.List;
+import java.awt.TextField;
+import java.awt.TextArea;
+import java.awt.Toolkit;
+
+import javax.swing.JTextPane;
+import javax.swing.JPanel;
+import javax.swing.border.TitledBorder;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
+
+import java.awt.Color;
+
+public class ventanaPrueba extends JFrame{
+	private JTextField textField;
+
+	public ventanaPrueba() {
+		setTitle("KUKABUKA");
+		setBackground(new Color(240, 240, 240));
+		this.setBounds(getWidth(),getHeight(),getWidth(),getHeight());
+		getContentPane().setLayout(null);
+		Dimension dimPantalla = Toolkit.getDefaultToolkit().getScreenSize();
+		setSize(dimPantalla);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(getWidth(),getHeight(),getWidth(),getHeight());
+		panel.setBorder(new TitledBorder(null, "Men\u00FA", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		getContentPane().add(panel);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBounds(getWidth(),getHeight(),getWidth(),getHeight());
+		panel_1.setBorder(new TitledBorder(null, "Buscar", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		panel_1.setToolTipText("");
+		getContentPane().add(panel_1);
+		panel_1.setLayout(null);
+		
+		JLabel label = new JLabel("Buscar:");
+		label.setBounds(10, 23, 53, 37);
+		panel_1.add(label);
+		
+		textField = new JTextField();
+		textField.setBounds(54, 31, 117, 20);
+		panel_1.add(textField);
+		textField.setColumns(10);
+		
+		JButton btnBuscar = new JButton("Buscar");
+		btnBuscar.setBounds(181, 30, 89, 23);
+		panel_1.add(btnBuscar);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Entrantes", "Primer plato", "Segundo plato", "Postre"}));
+		comboBox.setBounds(10, 62, 68, 20);
+		panel_1.add(comboBox);
+		
+		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"Desayuno", "Almuerzo", "Comida", "Cena"}));
+		comboBox_1.setBounds(88, 62, 83, 20);
+		panel_1.add(comboBox_1);
+		
+		JComboBox comboBox_2 = new JComboBox();
+		comboBox_2.setModel(new DefaultComboBoxModel(new String[] {"F\u00E1cil", "Medio", "D\u00EDficil"}));
+		comboBox_2.setBounds(181, 64, 73, 20);
+		panel_1.add(comboBox_2);
+		
+		JPanel panel_2 = new JPanel();
+		panel_2.setBounds(getWidth(),getHeight(),getWidth(),getHeight());
+		panel_2.setBorder(new TitledBorder(null, "Perfil", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		getContentPane().add(panel_2);
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setBounds(getWidth(),getHeight(),getWidth(),getHeight());
+		panel_3.setBorder(new TitledBorder(null, "Sugerencias", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		getContentPane().add(panel_3);
+	}
+}

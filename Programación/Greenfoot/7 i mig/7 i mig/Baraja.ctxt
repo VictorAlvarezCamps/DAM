@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Baraja()
+comment1.params=Cartas
+comment1.target=int[]\ Barajar(int[])
+comment2.params=
+comment2.target=void\ rellenaBaraja()
+comment3.params=pa\ va
+comment3.target=void\ obtenerCarta(java.lang.String,\ java.lang.String)
+comment4.params=
+comment4.target=void\ Robar()
+numComments=5

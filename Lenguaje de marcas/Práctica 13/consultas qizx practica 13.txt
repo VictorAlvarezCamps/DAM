@@ -1,0 +1,30 @@
+Consulta 1
+
+for $acto in doc ("actos.xml")//acto
+where $acto
+return $acto/nomacto
+
+Consulta 2
+
+for $acto in doc ("actos.xml")//acto
+where $acto/fecha="19/8/2012"
+return $acto/nomacto
+
+Consulta 3
+
+for $entidad in doc ("actos.xml")//entidades/entidad
+where $entidad/festero/nomfestero="Pepe"
+return $entidad/nomentidad
+
+Consulta 4
+
+for $acto in doc ("actos.xml")//acto
+for $entidad in doc ("actos.xml")//entidad
+where $acto/fecha="19/8/2012" and $acto/nomentidad=$entidad/nomentidad
+return $entidad/festero/nomfestero
+
+Consulta 5
+
+for $entidad in doc ("actos.xml")//entidad
+where count($entidad/festero) >= 4
+return $entidad/nomentidad

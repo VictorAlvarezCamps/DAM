@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=nomImg
+comment0.target=Obstacle(java.lang.String)
+comment0.text=\r\n\ Obstacle\ Constructor\r\n\r\n\ @param\ nomImg\ la\ imatge\ que\ representa\ l'obstacle,\ i\ que\ apareixer\u00E0\ al\ m\u00F3n\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ hace\ lo\ que\ Obstacle\ quiere\ hacer.\ Este\ m\u00E9todo\ se\ llama\ "cuando\ quiera"\ o\ whenever\r\n\ los\ botones\ 'Actuar\ or\ 'Ejecutar'\ son\ presionados\ en\ el\ entorno.\r\n
+comment2.params=
+comment2.target=void\ niHaObstacle()
+numComments=3

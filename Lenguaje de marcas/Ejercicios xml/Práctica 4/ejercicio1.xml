@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<taller>
+	<vehiculo>
+		<matricula>6598 NNH
+		<marca>Seat
+		<modelo>Ibiza
+		<fecha_reparacion>06/11/2014
+		<nombre_mecanico>Paco
+	</vehiculo>
+	<vehiculo>
+		<matricula>2552 XNX
+		<marca>Ford
+		<modelo>Mustang GT
+		<fecha_reparacion>06/11/2014
+		<nombre_mecanico>Alberto
+	</vehiculo>
+	<vehiculo>
+		<matricula>2333 GRR
+		<marca>Peugeot
+		<modelo>208
+		<fecha_reparacion>07/11/2014
+		<nombre_mecanico>Manuel
+	</vehiculo>
+	<vehiculo>
+		<matricula>4273 GFK
+		<marca>Fiat
+		<modelo>Doblo
+		<fecha_reparacion>07/11/2014
+		<nombre_mecanico>Luis
+	</vehiculo>
+	<vehiculo>
+		<matricula>3689 GBC
+		<marca>Mitsubishi
+		<modelo>Eclipse
+		<fecha_reparacion>08/11/2014
+		<nombre_mecanico>Sergio
+	</vehiculo>
+</taller>

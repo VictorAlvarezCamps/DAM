@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cano()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ controlaTeclat()
+comment3.params=
+comment3.target=void\ teclaDisparo()
+comment4.params=
+comment4.target=void\ Disparar()
+comment5.params=
+comment5.target=void\ refrescarCano()
+comment6.params=
+comment6.target=greenfoot.GreenfootImage\ triaColorBala()
+numComments=7

@@ -1,0 +1,26 @@
+CREATE PROCEDURE 'empleados',insertar_registros_en_t'(IN clave INT,
+	IN valor INT)
+
+MODIFIES SQL DATA
+BEGIN
+INSERT INTO t (C,S1) VALUES (clave,valor);
+END
+
+CALL insertar_registro_en_t(33,7);
+select * from t;
+
+
+
+
+CREATE DEFINER='root'@'localhost' PROCEDURE 'insertar_registros_en_t'(IN clave INT,
+	IN valor INT,OUT estado VARCHR(45))
+
+MODIFIES SQL DATA
+BEGIN
+DECLARE CONTINUE HANDLER FOR 1962 SET estado='entrada duplicada';
+SET estado ='ok';
+INSERT INTO t(C,S1) VALUES (clave,valor);
+END
+
+CALL insertar_registro_en_t(95,223,@es);
+select * from t;

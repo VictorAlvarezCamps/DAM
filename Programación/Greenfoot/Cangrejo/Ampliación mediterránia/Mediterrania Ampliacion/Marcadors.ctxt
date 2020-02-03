@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=vin\ T
+comment0.target=Marcadors(int,\ java.lang.String)
+comment1.params=
+comment1.target=void\ contadoractualitzat()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=v
+comment3.target=void\ aumentar(int)
+comment4.params=v
+comment4.target=void\ disminuir(int)
+numComments=5

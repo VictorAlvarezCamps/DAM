@@ -1,0 +1,74 @@
+
+Ejercicio 1
+
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.W3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:element name="BDtaller">
+ <xs:complexType>
+   <xs:sequence>
+     <xs:element name="vehículo" maxOccurs="unbounded">
+       <xs:complexType>
+         <xs:sequence>
+           <xs:element name="matrícula" type="xs:string"/>
+           <xs:element name="marca" type="xs:string"/>
+           <xs:element name="modelo" type="xs:string"/>
+           <xs:element name="fecha_reparación" type="xs:date"/>
+	   	   <xs:element name="nombre_mecánico" type="xs:string"/>
+         </xs:sequence>
+	   </xs:complexType>
+     </xs:element>
+   </xs:sequence>
+ </xs:complexType>
+</xs:element>
+</xs:schema>
+
+Ejercicio 2
+
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.W3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:element name="BdLibreria">
+ <xs:complexType>
+   <xs:sequence>
+     <xs:element name="Libro" maxOccurs="unbounded">
+       <xs:complexType>
+         <xs:sequence>
+           <xs:element name="Titulo_libro" type="xs:string"/>
+           <xs:element name="Editorial" type="xs:string"/>
+           <xs:element name="Fecha_publicacion" type="xs:string"/>
+           <xs:element name="ISBN" type="xs:integer"/>
+		   		<xs:element name="Autor" maxOccurs="unbounded">
+					<xs:element name="nombre" type="xs:string"/>
+					<xs:element name="país_origen" type="xs:string"/>
+				</xs:element> 
+            </xs:sequence>
+	</xs:complexType>
+     </xs:element>
+   </xs:sequence>
+ </xs:complexType>
+</xs:element>
+</xs:schema>
+
+Ejercicio 3
+
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.W3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:element name="Colegio">
+ <xs:complexType>
+   <xs:sequence>
+     <xs:element name="Curso" maxOccurs="unbounded">
+		<xs:element name="grupo" maxOccurs="unbounded">
+			<xs:element name="alumno" maxOccurs="unbounded">
+				<xs:complexType>
+         			<xs:sequence>
+					<xs:element name="nombre" type="xs:string"/>
+           				<xs:element name="localidad" type="xs:string"/>
+           				<xs:element name="nota_sacada" type="xs:integer"/>
+				</xs:sequence>
+	   			</xs:complexType>
+			</xs:element>
+		</xs:element>
+	  </xs:element>
+	</xs:sequence>
+ </xs:complexType>
+</xs:element>
+</xs:schema>

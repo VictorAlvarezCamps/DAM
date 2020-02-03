@@ -1,0 +1,25 @@
+Begin
+declare i int;
+set i=0;
+loop1:repeat
+set i=i+1;
+if mod(i,2)<>0 then
+	select concat(i,"es impar");
+end if;
+until i>=10
+end repeat;
+end
+
+
+
+
+BEGIN
+	DECLARE i INT default 1;
+	loop1: WHILE i<=10 do
+
+	IF MOD(i,2)<>0 THEN
+		SELECT concat(i,"es impar");
+	END IF
+SET i=i+1;
+END WHILE loop1;
+END 

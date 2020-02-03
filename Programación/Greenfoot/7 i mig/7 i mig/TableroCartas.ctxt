@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TableroCartas()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ cambiarTurno()
+comment3.params=
+comment3.target=void\ finPartida()
+comment4.params=
+comment4.target=void\ EmpezarUnaPartida()
+comment5.params=
+comment5.target=boolean\ getTurno()
+numComments=6

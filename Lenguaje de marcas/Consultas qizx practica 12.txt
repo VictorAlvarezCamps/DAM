@@ -1,0 +1,23 @@
+Consulta 1
+
+for $Alumno in doc("dtdpractica12.xml")//Alumnos/Alumno
+where $Alumno/Poblacion="Catarroja"
+return $Alumno/NomAlum
+
+Consulta 2
+
+for $Alumno in doc("Practica_12.xml")//Colegio/Tutor/Alumno
+where $Alumno/tutor="Pepe" or $Alumno/tutor="Juan"
+return $Alumno/nomAlumn
+
+Consulta 3
+
+for $Alumno in doc("Practica_12.xml")//Colegio/Tutor/Alumno
+where $Alumno/notaMedia<8
+return $Alumno/nomAlumn
+
+Consulta 4
+
+for $Colegio in doc("Practica_12.xml")//Colegio/Tutor/
+where $Colegio[ciudad="Torrente"]
+return $Colegio/Alumno/nomAlumn

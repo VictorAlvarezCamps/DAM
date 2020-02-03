@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=l
+comment0.target=Letra(char)
+comment1.params=
+comment1.target=void\ act()
+comment10.params=b
+comment10.target=void\ isAcierto(boolean)
+comment2.params=
+comment2.target=void\ mueveRaton()
+comment3.params=
+comment3.target=void\ imagenCorrecta()
+comment4.params=
+comment4.target=void\ imagen()
+comment5.params=
+comment5.target=void\ redibuja()
+comment6.params=
+comment6.target=char\ getLetra()
+comment7.params=
+comment7.target=boolean\ isSeleccion()
+comment8.params=b
+comment8.target=void\ isSeleccion(boolean)
+comment9.params=
+comment9.target=boolean\ isAcierto()
+numComments=11

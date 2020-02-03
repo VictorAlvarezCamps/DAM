@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Marcador()
+comment1.params=
+comment1.target=void\ palabrasMarcador()
+comment2.params=
+comment2.target=void\ cogePalabras()
+comment3.params=
+comment3.target=java.lang.String\ getPalabras()
+numComments=4

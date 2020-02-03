@@ -1,0 +1,62 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Peixet here.
+ * El Peixet se mueve en diagonal
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Peixet extends Enemics
+{
+    int velocidad;
+    
+    private GreenfootImage img1;
+    private GreenfootImage img2;
+    private GreenfootImage img3;
+    
+    public Peixet()
+    {
+        tipoEnemic = 2;
+        puntos = 5;
+        ferocidad = 5;
+        velocidad = 2;
+        
+        img1 = new GreenfootImage("peix1.png");
+        img2 = new GreenfootImage("peix2.png");
+        img3 = new GreenfootImage("peix3.png");
+        //asigna una imagen aleatoria
+        int random = Greenfoot.getRandomNumber(3);
+        if(random==0){setImage(img1);}
+        if(random==1){setImage(img2);}
+        if(random==2){setImage(img3);}
+    }
+    
+    /**
+     * Act - do whatever the Peixet wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        if (bordeMundoY()){
+            setLocation(getX(),0);
+        }
+        if (bordeMundoX()){
+            setLocation(0,getY());
+        }
+        move();
+        encuentraCranc();
+        teletrans();
+    }
+    
+    public void move()
+    {
+        int x = getX();
+        int y = getY();
+        
+        x=x+velocidad;
+        y=y+velocidad;
+        
+        setLocation (x, y);
+    }
+    
+}

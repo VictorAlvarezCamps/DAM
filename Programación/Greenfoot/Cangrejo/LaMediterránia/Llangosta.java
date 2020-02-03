@@ -1,0 +1,73 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Llangosta here.
+ * La Llangosta se mueve en zig-zag
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Llangosta extends Enemics
+{
+    private static final int Arriba=0;
+    private static final int Abajo=1;
+    
+    int velocidad;
+    private int movimiento;
+    public Llangosta()
+    {
+        tipoEnemic = 3;
+        puntos = 20;
+        ferocidad = 20;
+        velocidad = 1;
+        //asigna una direccion inicial
+        movimiento = Greenfoot.getRandomNumber(2);
+        if (movimiento == 0){setRotation(-45);}
+        if (movimiento == 1){setRotation(45);}
+    }
+    
+    /**
+     * Act - do whatever the Llangosta wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        int y = Greenfoot.getRandomNumber(400);
+        if(bordeMundoX()){setLocation(0, y);}
+        if(bordeMundoY()){cambioDir();}
+        
+        move();
+        encuentraCranc();
+        teletrans();
+    }
+    
+    public void move()
+    {
+        int x = getX();
+        int y = getY();
+        switch (movimiento){
+            case Arriba:
+                x = x+velocidad;
+                y = y-velocidad;
+                break;
+            case Abajo:
+                x=x+velocidad;
+                y=y+velocidad;
+                break;
+            }
+
+        setLocation(x,y);
+    }
+    
+    public void cambioDir(){
+        switch(movimiento){
+            case Arriba:
+                movimiento = 1;
+                turnRight();
+                break;
+            case Abajo:
+                movimiento = 0;
+                turnLeft();
+                break;
+        }
+    }
+}

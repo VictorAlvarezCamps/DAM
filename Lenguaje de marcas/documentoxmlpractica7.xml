@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Comunidad>
+	<Vecino>
+		<CódigoVecino>001</CódigoVecino>
+		<Nombre>Pepe</Nombre>
+		<Apellidos>Mártinez</Apellidos>
+		<Portal>1</Portal>
+		<PisoLetra>20</PisoLetra>
+		<CCC>123456789</CCC>
+		<Cargo>Presidente</Cargo>
+	</Vecino>
+	<Vecino>
+		<CódigoVecino>002</CódigoVecino>
+		<Nombre>Manuel</Nombre>
+		<Apellidos>Aspero</Apellidos>
+		<Portal>1</Portal>
+		<PisoLetra>19</PisoLetra>
+		<CCC>234567891</CCC>
+		<Cargo>Vicepresidente</Cargo>
+	</Vecino>
+	<Vecino>
+		<CódigoVecino>003</CódigoVecino>
+		<Nombre>Paco</Nombre>
+		<Apellidos>Estrella</Apellidos>
+		<Portal>1</Portal>
+		<PisoLetra>18</PisoLetra>
+		<CCC>345678912</CCC>
+		<Cargo>Secretario</Cargo>
+	</Vecino>
+</Comunidad>

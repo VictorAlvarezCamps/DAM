@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE agenda [ 
+<!ELEMENT contacto (nombre, apellidos, telefono+, correo)>
+<!ELEMENT direccion (calle, numero, cod_postal)>
+]> 
+<agenda>
+	<contacto>1
+		<datos>
+			<nombre>Manolito</nombre>
+			<apellidos>Pérez</apellidos>
+			<telefono>648532471</telefono>
+			<correo>Manolito_malo@hotmail.com</correo>
+		</datos>
+		<direccion>
+				<calle>Palomitas</calle>
+				<numero>15</numero>
+				<cod_postal>46242</cod_postal>
+		</direccion>
+	</contacto>
+	<contacto>2
+		<datos>
+			<nombre>Jaimito</nombre>
+			<apellidos>Aguas</apellidos>
+			<telefono>658452125</telefono>
+			<correo>Jaimito_amedias@hotmail.com</correo>
+		</datos>
+		<direccion>
+				<calle>Tsunami</calle>
+				<numero>48</numero>
+				<cod_postal>43620</cod_postal>
+		</direccion>
+	</contacto>
+	<contacto>3
+		<datos>
+			<nombre>Juanito</nombre>
+			<apellidos>Corre Pillo</apellidos>
+			<telefono>689521403</telefono>
+			<correo></correo>
+		</datos>
+		<direccion>
+				<calle>Flautas</calle>
+				<numero>61</numero>
+				<cod_postal>47115</cod_postal>
+		</direccion>
+	</contacto>
+</agenda>
