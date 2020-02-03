@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DialegsRepaso</string>
+
+    <string name="ok">Ok</string>
+    <string name="dialog_message">Este es el mensaje</string>
+    <string name="dialog_title">Título diálogo</string>
+    <string name="cancel">Cancelar</string>
+</resources>
